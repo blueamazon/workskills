@@ -1,0 +1,38 @@
+.custom-file-upload input[ type="button" ] {
+    border: none;
+    padding: 7px;
+}
+.custom-file-upload #filename-input {
+    padding: 5px;
+}
+.custom-file-upload #remove-input {
+    outline: none;
+}
+.custom-file-upload #choose-input {
+    z-index: 1;
+    position: relative;
+}
+.custom-file-upload #file-input {
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+}
+.license-btn {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 26px;
+    margin-left: 5px;
+    padding: 0 10px 1px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.license-btn.active {
+    background: #7ad03a;
+}
+.license-btn.inactive {
+    background: red;
+}

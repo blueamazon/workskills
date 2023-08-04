@@ -1,0 +1,16 @@
+.h5pQuiz{
+	.quiz_header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .quiz_retake {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;}
+}
+
+
+}

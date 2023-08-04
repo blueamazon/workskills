@@ -1,0 +1,65 @@
+* aa9822d : 2.1
+* 1c1a2c9 : Privacy removed if Instructor privacy not enabled
+* 2d88c28 : 2.1 (content for all)
+* 06c9448 : custom class do not select all iframes
+* a25d626 : iframe height now checked in wplms_plugin
+* f8e69ae : 2.0.1
+* e1724e2 : check for class exists
+* 7ee5d50 : udpated readme
+* b05b586 : 2.0
+* 841f7f2 : translations
+* 5572742 : event passed
+* 838d5d8 : quiz type value changed fix
+* 773fd0f : editing h5p quiz shoudl show h5p units
+* d3cd470 : removing console and show content on start or not start
+* acdff16 : h5p units adn quizzes
+* 13cb5ec : single quiz working
+* 35d04f2 : works in course status
+* 1cca7e5 : shortcode scripts added
+* 955ac25 : the_content
+* 58f22fd : xhr to fetch the shortcode html
+* 2435062 : h5p 4.0 support init
+*   2883702 : Merge branch 'develop' of https://github.com/VibeThemes/wplms-h5p into develop
+|\  
+| * b408b1b : Update wplms.h5p.class.php
+* | 527f1d2 : privacy support
+|/  
+* 6281ea8 : quiz status discontinuity fix in app
+* d18e911 : multisite active checks for h5p
+* c7b0cde : php 5.4 error fix
+* fd92f4b : 1.3.1
+* 259d615 : quiz locking fix
+* 0f0a6c5 : updated readme
+* 0c33774 : h5p quiz not taken into course evaluation fix
+*   7f9131d : Merge branch 'develop' of https://github.com/VibeThemes/wplms-h5p into develop
+|\  
+| * 3ddc9e0 : 1.3
+| * cb6080d : updated pot file
+* | 469fe72 : show rersults right after quiz submission after quiz message does not show results with h5p integrated quizzes fix
+|/  
+* b7bbc4c : with non ajax fix
+*   2643689 : Merge branch 'develop' of https://github.com/VibeThemes/wplms-h5p into develop
+|\  
+| * 34c7cc2 : version1.2
+* | 2f04def : removed consoles
+|/  
+* 84023ee : insert shortcode refinement
+* 1ce4e1e : add h5p popup to wplms h5p
+* 34f4cf9 : version1.1
+* 37f7527 : add h5p content in front end
+*   7a9a86e : Merge branch 'develop' of https://github.com/VibeThemes/wplms-h5p into develop
+|\  
+| * ab52f6e : h5p enhancements
+| * fe9e059 : 1.0
+| * c30c96e : Documentation links
+| * b304ab7 : added readme
+| * b312e86 : credits and translations added
+| * 7ff27c2 : single quiz and incourse quiz compatibility
+* | 050c903 : 1.1
+* | 195c26c : h5p enhancements
+* | debc56f : h5p enhancements
+* | c3f0114 : 1.0
+* | 6449324 : Documentation links
+* | 2f455ce : added readme
+|/  
+* cdadb02 : initialzie

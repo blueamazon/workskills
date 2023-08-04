@@ -1,0 +1,48 @@
+2023-07-17T16:06:50+00:00 CRITICAL Uncaught Error: Call to undefined method bp_course_notifications::bp_code_get_userlink() in /home/customer/www/nextgates.com/public_html/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1529
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(308): bp_course_notifications->student_email_unit_instructor_uncomplete('22402', '12', '3166')
+#1 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/nextgates.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/nextgates.com/public_html/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php(246): do_action('wplms_unit_inst...', '22402', '12', '3166')
+#4 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(308): BP_Course_Ajax->instructor_uncomplete_unit('')
+#5 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(332): WP_Hook- in /home/customer/www/nextgates.com/public_html/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php on line 1529
+
+2023-07-17T16:07:02+00:00 CRITICAL Uncaught Error: Call to undefined method bp_course_notifications::bp_code_get_userlink() in /home/customer/www/nextgates.com/public_html/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1529
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(308): bp_course_notifications->student_email_unit_instructor_uncomplete('22402', '12', '3166')
+#1 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/nextgates.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home/customer/www/nextgates.com/public_html/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php(246): do_action('wplms_unit_inst...', '22402', '12', '3166')
+#4 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(308): BP_Course_Ajax->instructor_uncomplete_unit('')
+#5 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(332): WP_Hook- in /home/customer/www/nextgates.com/public_html/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php on line 1529
+
+2023-07-17T16:43:02+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php on line 116 and defined in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php:90
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php(116): Firebase\JWT\JWT::decode(Array, Object(Firebase\JWT\Key))
+#1 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/Client.php(814): Google\AccessToken\Verify->verifyIdToken(Array, '195966726659-7v...')
+#2 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/class-woo-slg-public.php(99): Google\Client->v in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php on line 90
+
+2023-07-17T16:43:47+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php on line 116 and defined in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php:90
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php(116): Firebase\JWT\JWT::decode(Array, Object(Firebase\JWT\Key))
+#1 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/Client.php(814): Google\AccessToken\Verify->verifyIdToken(Array, '195966726659-7v...')
+#2 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/class-woo-slg-public.php(99): Google\Client->v in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php on line 90
+
+2023-07-17T16:43:58+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php on line 116 and defined in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php:90
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php(116): Firebase\JWT\JWT::decode(Array, Object(Firebase\JWT\Key))
+#1 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/Client.php(814): Google\AccessToken\Verify->verifyIdToken(Array, '195966726659-7v...')
+#2 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/class-woo-slg-public.php(99): Google\Client->v in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php on line 90
+
+2023-07-17T16:45:05+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php on line 116 and defined in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php:90
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php(116): Firebase\JWT\JWT::decode(Array, Object(Firebase\JWT\Key))
+#1 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/Client.php(814): Google\AccessToken\Verify->verifyIdToken(Array, '195966726659-7v...')
+#2 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/class-woo-slg-public.php(99): Google\Client->v in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php on line 90
+
+2023-07-17T16:53:45+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Firebase\JWT\JWT::decode() must be of the type string, array given, called in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php on line 116 and defined in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php:90
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/AccessToken/Verify.php(116): Firebase\JWT\JWT::decode(Array, Object(Firebase\JWT\Key))
+#1 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/src/Client.php(814): Google\AccessToken\Verify->verifyIdToken(Array, '195966726659-7v...')
+#2 /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/class-woo-slg-public.php(99): Google\Client->v in /home/customer/www/nextgates.com/public_html/wp-content/plugins/woo-social-login/includes/social/libraries/googleplus/vendor/firebase/php-jwt/src/JWT.php on line 90
+

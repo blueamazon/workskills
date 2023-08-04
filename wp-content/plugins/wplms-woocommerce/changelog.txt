@@ -1,0 +1,73 @@
+*1.8
+*link in LMS - Settings
+*search form in Instructor premium courses
+*updated translation files
+*missing translation added
+*search block in instructor premium courses added
+*changelog 1.7
+*1.7
+*variable changed
+*partial course and variation html fixes
+*Woocommerce upsell and cross sell not working bug fixed
+*work only on link not on submit form
+*1.6.1
+*Debugging string removed
+*Variation popup not working on course page bug fixed
+*Popup for variation not working on course status bug fixed.
+*1.6
+*variation popup issue on course page fixed.
+*syntax error fixed
+*Partial free course check added for variable products
+*Partial free course hook added for variable products
+*Translation issues fixed.
+*1.5
+*Unwanted pending status removed
+*Currency symbol bug in premium courses form fixed.
+*Instructor Dashboard widget added for premium courses
+*Per course Price not displaying properly while saving bug fixed.
+*Pagination bug fixed
+*Pagination added in instructor premium courses table
+*published and total courses count shown on instructing courses.
+*security check failed bug fixed and some styling issues fixed.
+*Merge branch 'instructor_premium_courses' into develop
+*1.4.1
+*Variation popup item action added.
+*Bug fixes and batch added in variation popup.
+*version update
+*product duration parameter not saving in varible pricing
+*1.4
+*Styling issues fixed.
+*changelog
+*batch id added in cart url
+*Add to cart url filter added for batches
+*batch Pricing added
+*Minor bug fixed
+*Text Domain added for translation
+*Variation adding to cart functionality added
+*Add Popup and add product information and a button in popup
+*Add switch in LMS settings
+*duration parameter
+*1.3
+*Sell Batches with Wplms WooCommerce
+*Add to cart bug for Expired courses
+*1.2
+*renew form
+*select2 multiple fix
+*version1.1
+*Changelog
+*Variable form visibility for Logged out users
+*version1.1
+*License key updates
+*fixes
+*font fixes
+*version 1.0
+*Front panel variable pricing support
+*Woo Admin fields
+*Auto Updates
+*get product
+*bug fixes
+*Veriable Pricing support
+*0.9
+*Variable Pricing
+*added features dropdown in course dropdown and saving
+*first commit (setting of variable pricing and displaying )

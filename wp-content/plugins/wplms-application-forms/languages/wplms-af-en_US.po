@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS Application Forms\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-19 16:13+0530\n"
+"PO-Revision-Date: 2019-09-19 16:13+0530\n"
+"Last-Translator: admin <007hitslatiyan@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class.init.php:39 includes/class.init.php:40
+msgid "Invite Application Form"
+msgstr ""
+
+#: includes/class.init.php:44
+msgid "No"
+msgstr ""
+
+#: includes/class.init.php:46
+msgid "Yes"
+msgstr ""
+
+#: includes/class.init.php:52
+msgid ""
+"Show application form to the users to get their information before applying "
+"for the course."
+msgstr ""
+
+#: includes/class.init.php:55
+msgid "Application Form"
+msgstr ""
+
+#: includes/class.init.php:56
+msgid "Add Application Form"
+msgstr ""
+
+#: includes/class.init.php:62
+msgid "Application form shown to the users before applying for the course."
+msgstr ""
+
+#: includes/class.init.php:68
+msgid "Hide"
+msgstr ""
+
+#: includes/class.init.php:68
+msgid "Show"
+msgstr ""
+
+#: includes/class.init.php:71
+msgid "DISABLE"
+msgstr ""
+
+#: includes/class.init.php:71
+msgid "ENABLE"
+msgstr ""
+
+#: includes/class.init.php:89
+msgid "Your application has been approved , Please make payments."
+msgstr ""
+
+#: includes/class.init.php:93
+msgid "You have already applied to this course, kindly wait for approval."
+msgstr ""
+
+#: includes/class.init.php:97
+msgid ""
+"Your application has been rejected , kindly contact Instructor/Administrator "
+"for more informaiton."
+msgstr ""
+
+#: includes/class.init.php:98
+msgctxt "Apply for Course label for course"
+msgid "Applied for Course"
+msgstr ""
+
+#: includes/class.init.php:103
+msgid ""
+"You has been removed from course , kindly reapply or contact to Instructor/"
+"Administrator for more informaiton."
+msgstr ""
+
+#: includes/class.init.php:107
+msgid "You have been allowed to apply for this course again."
+msgstr ""
+
+#: includes/class.init.php:142
+msgid "You must agree with Terms and conditions"
+msgstr ""
+
+#: includes/class.init.php:142
+msgid " I have read and accept the "
+msgstr ""
+
+#: includes/class.init.php:142
+msgid " and "
+msgstr ""
+
+#: includes/class.init.php:331
+msgid "Security check failed, please contact administrator"
+msgstr ""
+
+#: includes/class.init.php:352
+msgid "Open in new tab"
+msgstr ""
+
+#: includes/class.waf-actions.php:57
+msgid "Form Settings"
+msgstr ""
+
+#: includes/class.waf-actions.php:62
+msgid ""
+"Please select Terms & Conditions and Privacy Policy page for Application Form"
+msgstr ""
+
+#: includes/class.waf-actions.php:67
+msgid "Terms & Conditions page"
+msgstr ""
+
+#: includes/class.waf-actions.php:69
+msgid "Select a terms and conditions page."
+msgstr ""
+
+#: includes/class.waf-actions.php:75
+msgid "Privacy Policy page"
+msgstr ""
+
+#: includes/class.waf-actions.php:77
+msgid "Select a privacy policy page."
+msgstr ""
+
+#: includes/class.waf-actions.php:84
+msgid "Instructor Settings"
+msgstr ""
+
+#: includes/class.waf-actions.php:89
+msgid ""
+"Please note, below functionality will disable access for application "
+"management for Instructors"
+msgstr ""
+
+#: includes/class.waf-actions.php:94
+msgid "Disable Instructor Access"
+msgstr ""
+
+#: includes/class.waf-actions.php:96
+msgid ""
+"Check this checkbox to disable access for instructor from application "
+"management on frontend. By Default, instructor will have access to "
+"application management & he/she can approve/deny/reset applications."
+msgstr ""
+
+#: includes/class.waf-actions.php:289 includes/class.waf-actions.php:408
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: includes/class.waf-actions.php:389 includes/class.waf-admin.php:57
+msgctxt "Application status"
+msgid "Pending"
+msgstr ""
+
+#: includes/class.waf-actions.php:390 includes/class.waf-admin.php:58
+msgctxt "Application status"
+msgid "Approved"
+msgstr ""
+
+#: includes/class.waf-actions.php:391 includes/class.waf-admin.php:59
+msgctxt "Application status"
+msgid "Rejected"
+msgstr ""
+
+#: includes/class.waf-actions.php:392 includes/class.waf-admin.php:60
+msgctxt "Application status"
+msgid "Removed"
+msgstr ""
+
+#: includes/class.waf-actions.php:393
+msgctxt "Application status"
+msgid "Re-Enabled"
+msgstr ""
+
+#: includes/class.waf-actions.php:396
+msgctxt "get applications button"
+msgid "Get"
+msgstr ""
+
+#: includes/class.waf-actions.php:444
+msgid "<strong>Date of submission:</strong> "
+msgstr ""
+
+#: includes/class.waf-actions.php:445
+msgid "<strong>Application processed on:</strong> "
+msgstr ""
+
+#: includes/class.waf-actions.php:449
+msgctxt "Reset user application for course"
+msgid "Reset"
+msgstr ""
+
+#: includes/class.waf-actions.php:456
+msgctxt "No applications found in course, error on course submissions"
+msgid "No applications found !"
+msgstr ""
+
+#: includes/class.waf-admin.php:44
+msgid "Course applications"
+msgstr ""
+
+#: includes/class.waf-admin.php:45
+msgid "Applications"
+msgstr ""
+
+#: includes/class.waf-admin.php:61
+msgctxt "Application status"
+msgid "Re-enabled"
+msgstr ""
+
+#: includes/class.waf-admin.php:62
+msgctxt "Application status"
+msgid "All"
+msgstr ""
+
+#: includes/class.waf-admin.php:91
+#, php-format
+msgid "%s applications"
+msgstr ""
+
+#: includes/class.waf-admin.php:135
+msgid "Are you sure, you want to delete this application?"
+msgstr ""
+
+#: includes/class.waf-admin.php:283
+msgid "Student name"
+msgstr ""
+
+#: includes/class.waf-admin.php:284
+msgid "Course"
+msgstr ""
+
+#: includes/class.waf-admin.php:285
+msgid "Date of Submission"
+msgstr ""
+
+#: includes/class.waf-admin.php:286
+msgid "Date of Approval or Rejection"
+msgstr ""
+
+#: includes/class.waf-admin.php:287
+msgid "Application details"
+msgstr ""
+
+#: includes/class.waf-admin.php:288
+msgid "Status"
+msgstr ""
+
+#: includes/class.waf-admin.php:320
+msgid "All Courses"
+msgstr ""
+
+#: includes/class.waf-admin.php:339
+msgid "Apply Filter"
+msgstr ""
+
+#: includes/class.waf-admin.php:355
+msgid "Nope! Security check failed!"
+msgstr ""
+
+#: includes/class.waf-admin.php:419
+msgid "Edit Profile"
+msgstr ""
+
+#: includes/class.waf-admin.php:420
+msgid "View orders"
+msgstr ""
+
+#: includes/class.waf-admin.php:421 includes/class.waf-admin.php:463
+#: includes/class.waf-admin.php:481
+msgctxt "delete user application for course"
+msgid "Delete"
+msgstr ""
+
+#: includes/class.waf-admin.php:462
+msgctxt "Re-enable user application for course"
+msgid "Reset"
+msgstr ""
+
+#: includes/class.waf-admin.php:479
+msgctxt "reject user application for course"
+msgid "Reject"
+msgstr ""
+
+#: includes/class.waf-admin.php:480
+msgctxt "approve user application for course"
+msgid "Approve"
+msgstr ""
+
+#: includes/class.waf-admin.php:573
+msgid "Didn't found any approved application."
+msgstr ""
+
+#: includes/class.waf-admin.php:577
+msgid "Didn't found any rejected application."
+msgstr ""
+
+#: includes/class.waf-admin.php:581
+msgid "Didn't found any removed application."
+msgstr ""
+
+#: includes/class.waf-admin.php:585
+msgid "Didn't found any re-enabled application."
+msgstr ""
+
+#: includes/class.waf-admin.php:589
+msgid "Didn't found any application. Seems like still no one applied."
+msgstr ""
+
+#: includes/class.waf-admin.php:593
+msgid "Didn't found any pending application."
+msgstr ""
+
+#: includes/class.woocommerce.php:54
+msgctxt "configure setting for Application forms in LMS - Settings"
+msgid "Application forms"
+msgstr ""
+
+#: includes/class.woocommerce.php:65
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: includes/class.woocommerce.php:69
+msgid ""
+"Please note, below functionality do not affect directly on course. User buy "
+"prodcuct not actual course. So, One course must be linked with one product & "
+"vice versa."
+msgstr ""
+
+#: includes/class.woocommerce.php:73
+msgid "Disable One time course purchase mode"
+msgstr ""
+
+#: includes/class.woocommerce.php:75
+msgid ""
+"By Default, user is restricted to puchase course(product) one time. If you "
+"disable this, user can puchase same course(product) multiple times."
+msgstr ""
+
+#: includes/class.woocommerce.php:79
+msgid "Disable Sold course(product) individually."
+msgstr ""
+
+#: includes/class.woocommerce.php:82
+msgid ""
+"By Default, User is restricted to purchase course(product) one quantity per "
+"order. <br />Sold invdividually can be confirgured per product by editing "
+"same product from dashboard. If you enable this, settings per product will "
+"work & products not having sold invdividually setting on, can be added "
+"multiple times in cart. <br />This settings need to be disabled for "
+"<strong>One time course purchase</strong> to work properly."
+msgstr ""
+
+#: includes/class.woocommerce.php:146
+msgctxt "Notice: Product can be purchased one time."
+msgid ""
+"You've already purchased this product! It can only be purchased once. "
+"Contact us for more details."
+msgstr ""
+
+#: includes/class.woocommerce.php:170
+msgctxt "Show message for non-purchasable only variations matching our ID"
+msgid ""
+"You've already purchased this product! It can only be purchased once. "
+"Contact us for more details."
+msgstr ""
+
+#: includes/class.woocommerce.php:199
+#, php-format
+msgid ""
+"Sorry, you've got this course(%s) earlier, contact administration for more "
+"details."
+msgstr ""
+
+#: includes/class.woocommerce.php:206
+msgid ""
+"Sorry, you've got this course earlier, contact administration for more "
+"details"
+msgstr ""
+
+#: includes/class.woocommerce.php:433
+msgctxt "Payment pending label for course, when order is on hold"
+msgid "Payment pending"
+msgstr ""

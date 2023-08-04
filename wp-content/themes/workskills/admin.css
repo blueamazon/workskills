@@ -1,0 +1,10 @@
+#filter-application .select2-container .select2-selection--single{height: 31px}
+.select2-container .select2-selection--single .select2-selection__rendered{line-height: 29px !important;}
+.select2-container .select2-selection--single .select2-selection__arrow{    height: 29px !important;}
+.ui-button-text-only .ui-button-text{padding:0 !important}
+.select2-container .select2-selection--single{height: auto !important}
+#latest-comments ul li > img{float:left}
+
+.select2-dropdown{z-index:100102 !important}
+
+

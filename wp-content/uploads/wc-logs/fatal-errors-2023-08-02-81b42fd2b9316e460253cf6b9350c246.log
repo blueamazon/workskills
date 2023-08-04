@@ -1,0 +1,53 @@
+2023-08-02T09:47:26+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/functions.php:114
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-settings.php(591): include()
+#1 /home/customer/www/nextgates.com/public_html/wp-config.php(113): require_once('/home/customer/...')
+#2 /home/customer/www/nextgates.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#3 /home/customer/www/nextgates.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#4 /home/customer/www/nextgates.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/functions.php on line 114
+
+2023-08-02T09:48:02+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/functions.php:114
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-settings.php(591): include()
+#1 /home/customer/www/nextgates.com/public_html/wp-config.php(113): require_once('/home/customer/...')
+#2 /home/customer/www/nextgates.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#3 /home/customer/www/nextgates.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#4 /home/customer/www/nextgates.com/public_html/index.php(17): require('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/functions.php on line 114
+
+2023-08-02T09:48:17+00:00 CRITICAL syntax error, unexpected ',' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/functions.php on line 125
+
+2023-08-02T09:48:18+00:00 CRITICAL syntax error, unexpected ',' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/functions.php on line 125
+
+2023-08-02T10:45:56+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:46:01+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:47:02+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:47:07+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:47:24+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:48:02+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:49:01+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:49:08+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:49:25+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T10:50:02+00:00 CRITICAL syntax error, unexpected '<' in /home/customer/www/nextgates.com/public_html/wp-content/themes/nextgates/includes/wplms-actions.php on line 416
+
+2023-08-02T17:37:14+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Code_Snippets\Frontend::enqueue_highlighting() must be of the type array, null given, called in /home/customer/www/workskills.se/public_html/wp-includes/class-wp-hook.php on line 310 and defined in /home/customer/www/workskills.se/public_html/wp-content/plugins/code-snippets/php/front-end/class-frontend.php:130
+Stack trace:
+#0 /home/customer/www/workskills.se/public_html/wp-includes/class-wp-hook.php(310): Code_Snippets\Frontend->enqueue_highlighting(NULL)
+#1 /home/customer/www/workskills.se/public_html/wp-includes/plugin.php(256): WP_Hook->apply_filters(NULL, Array)
+#2 /home/customer/www/workskills.se/public_html/wp-includes/class-wp-query.php(3505): apply_filters_ref_array('the_posts', Array)
+#3 /home/customer/www/workskills.se/public_html/wp-includes/class-wp-query.php(3787): WP_Query->get_posts()
+#4 /home/customer/www/workskills.se/public_html/wp-includes/class-wp.php(663): WP_Query->query(Array)
+#5 /home/customer/www/workskills.se/public_html/wp-includes/class-wp. in /home/customer/www/workskills.se/public_html/wp-content/plugins/code-snippets/php/front-end/class-frontend.php on line 130
+

@@ -1,0 +1,13 @@
+0000.001 () Opened log file at time: Fri, 04 Aug 2023 11:09:53 +0000 on http://workskills.test
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 7.4.19 (apache2handler, Windows NT DESKTOP-IH9U6G7 10.0 build 22621 (Windows 10) AMD64) MySQL: 5.7.24 (max packet size=536870912) WPLANG: en_US Server: Apache/2.4.35 (Win64) OpenSSL/1.1.1k PHP/7.4.19 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 146.3M | 36M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 111076.5 MB
+0000.041 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Fri, 04 Aug 2023 11:09:55 +0000 on http://workskills.test
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.7 WP: 6.2.2 PHP: 7.4.19 (apache2handler, Windows NT DESKTOP-IH9U6G7 10.0 build 22621 (Windows 10) AMD64) MySQL: 5.7.24 (max packet size=536870912) WPLANG: en_US Server: Apache/2.4.35 (Win64) OpenSSL/1.1.1k PHP/7.4.19 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 143.8M | 148M) multisite: N openssl: OpenSSL 1.1.1k  25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 111076.4 MB
+0000.009 () Ensuring WP_Filesystem is setup for a restore
+0000.010 () WP_Filesystem is setup and ready for a restore
+0000.013 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.015 () An error condition has occurred for the first time during this job
+0000.015 () Restore failed...
+0000.015 () Restore failed

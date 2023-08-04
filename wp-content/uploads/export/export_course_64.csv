@@ -1,0 +1,81 @@
+wp_posts,140,post_type,Type,course
+wp_posts,140,post_title,Title,"Basic of Nature Photography"
+wp_posts,140,post_date,Date,"2014-02-02 11:40:12"
+wp_posts,140,post_content,Content,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum turpis eu nunc volutpat vestibulum. Donec scelerisque arcu ac ante tristique iaculis. Morbi vulputate mauris sit amet faucibus feugiat. Curabitur ullamcorper dignissim suscipit. Nulla turpis nisi, fermentum sodales tincidunt id, accumsan sed orci. Donec et venenatis leo. Phasellus scelerisque, nisl vitae sollicitudin euismod, quam nisl tristique urna, mattis laoreet tellus tortor ac nibh.
+
+Nullam nec lacus nisl. Nam bibendum, sem at commodo dignissim, sem elit iaculis libero, in sollicitudin metus velit ut nisl. Cras pharetra, mi ac placerat vehicula, nisl dolor commodo libero, vitae molestie est quam quis massa. Fusce molestie lorem at diam fermentum tempus.
+
+Aliquam convallis elit ut felis iaculis, eget mattis erat laoreet. Pellentesque mollis purus justo, ut commodo lectus pretium non. Maecenas sed arcu congue, rutrum elit eget, tempus urna. Duis accumsan porttitor dolor, et pharetra mi ullamcorper non. Mauris in ullamcorper felis, in fermentum massa. Nulla facilisi. Suspendisse semper odio eleifend nisl aliquet sollicitudin. Aenean porta lorem eu nulla ullamcorper consequat. Vivamus ac porta sapien. Nulla facilisi.
+
+Mauris in ligula eget est elementum porta. Integer sollicitudin erat ut elit laoreet, a hendrerit risus luctus. Vestibulum id enim vel arcu suscipit dictum ac nec tellus. Integer suscipit pulvinar odio, a rutrum tortor tincidunt in. Pellentesque consequat sapien non massa ultrices condimentum et lacinia orci."
+wp_posts,140,post_author,"Author ID",1
+wp_posts,140,post_excerpt,Excerpt,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sem erat, molestie ornare nisl mollis, tempor sodales mauris. "
+wp_posts,140,post_status,Status,publish
+wp_posts,140,post_name,Slug,basic-of-nature-photography
+wp_posts,140,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,140,_builder_settings,,|
+wp_postmeta,140,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,140,vibe_course_badge,"Excellence Badge",1238
+wp_postmeta,140,vibe_course_badge_percentage,"Badge Percentage",70
+wp_postmeta,140,vibe_course_badge_title,"Badge Title","Nature Photographer"
+wp_postmeta,140,vibe_course_certificate,"Completion Certificate",S
+wp_postmeta,140,vibe_course_passing_percentage,"Passing Percentage",33
+wp_postmeta,140,vibe_duration,"Total Duration of Course",60
+wp_postmeta,140,vibe_students,"Total number of Students in Course",4
+wp_postmeta,140,vibe_course_curriculum,"Course Curriculum","Section 1: Introduction|220|210|209|Section 2: Implications|213|215|233"
+wp_postmeta,140,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,140,vibe_course_message,"Course Completion Message","<span style=""font-size: large;"">Congratulations ! Your course has been submitted.</span>
+
+The course is now under evaluation. The instructor will now evaluate the course, considering your performance in the course.
+<ol>
+ 	<li>Once evaluated you'll receive a notification and a message.</li>
+ 	<li>The message will have your course marks and performance details.</li>
+ 	<li>You can check your results in the Courses Results section of your profile.</li>
+ 	<li>If you've gained marks above the passing percentage, you'll receive a course completion certificate.</li>
+ 	<li>If you've excelled in the course you'll receive a course badge, which will be showcased in your profile.</li>
+</ol>
+Thank you for taking the course. Consider writing a review for this course.
+<h3></h3>"
+wp_postmeta,140,vibe_product,"Vibe product",325
+wp_postmeta,140,average_rating,"Average rating",4
+wp_postmeta,140,rating_count,"Rating count",4
+wp_postmeta,140,pass,Pass,1
+wp_postmeta,140,badge,Badge,1
+wp_postmeta,140,average,Average,76
+wp_postmeta,140,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,140,vibe_start_date,"Course Start Date",
+wp_postmeta,140,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,140,vibe_certificate_template,"Certificate Template",H
+wp_postmeta,140,vibe_course_drip,"Drip Feed",H
+wp_postmeta,140,vibe_course_drip_duration,"Drip Feed Duration (Static)",
+wp_postmeta,140,vibe_forum,"Course Forum",2097
+wp_postmeta,140,vibe_group,"Course Group",
+wp_postmeta,140,vibe_course_free,"Vibe course free",H
+wp_postmeta,140,_vc_post_settings,,|
+wp_postmeta,140,slide_template,"Slide template",default
+wp_postmeta,140,vibe_course_duration_parameter,"Course Duration parameter",86400
+wp_postmeta,140,vibe_course_offline,"Offline Course",H
+wp_postmeta,140,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,140,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,140,vibe_course_progress,"Display Course Progress on Course home",H
+wp_postmeta,140,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,140,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,140,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,140,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,140,vibe_drip_duration_parameter,"Drip Duration parameter",60
+wp_postmeta,140,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,140,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,140,vibe_course_apply,"Vibe course apply",H
+wp_postmeta,140,vibe_course_codes,"Vibe course codes",BASIC|234
+wp_postmeta,140,_thumbnail_id," thumbnail id",51
+wp_postmeta,140,_edit_lock," edit lock",1538580718:1
+wp_postmeta,140,_wpml_word_count," wpml word count","{""total"":244,""to_translate"":{""ar"":244,""sv"":244}}"
+wp_postmeta,140,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,140,_wpml_media_featured," wpml media featured",0
+wp_postmeta,140,_edit_last," edit last",1
+wp_postmeta,140,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",H
+wp_postmeta,140,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",H
+wp_postmeta,140,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,140,vibe_pmpro_membership,"Vibe pmpro membership",
+wp_postmeta,140,vibe_coming_soon,"Vibe coming soon",H
+wp_terms,140,course-cat,Terms,Photography

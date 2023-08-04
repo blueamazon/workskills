@@ -1,0 +1,250 @@
+# Translation of Plugins - Maintenance - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Maintenance - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-11 15:55:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Maintenance - Stable (latest release)\n"
+
+#: includes/functions.php:208
+msgid "Support"
+msgstr "Support"
+
+#: load/functions.php:259
+msgid "Password"
+msgstr "Lösenord"
+
+#: includes/functions.php:188
+msgid "Custom CSS"
+msgstr "Anpassad CSS"
+
+#: includes/functions.php:187
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: includes/functions.php:231
+msgid "Description"
+msgstr "Beskrivning"
+
+#: includes/functions.php:354
+msgid "Font family"
+msgstr "Typsnittsfamilj"
+
+#: includes/functions.php:195
+msgid "Pro version"
+msgstr "Pro-versionen"
+
+#: includes/functions.php:232
+msgid "Footer Text"
+msgstr "Sidfotstext"
+
+#: includes/functions.php:161
+msgid "Standard Fonts"
+msgstr "Standardtypsnitt"
+
+#: includes/admin.php:88
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#: includes/functions.php:230
+msgid "Headline"
+msgstr "Rubrik"
+
+#: includes/functions.php:202
+msgid "Fruitful Code projects"
+msgstr "Fruitful Code projekt"
+
+#. Author URI of the plugin/theme
+msgid "http://fruitfulcode.com"
+msgstr "http://fruitfulcode.com"
+
+#. #-#-#-#-#  tmp-maintenance.pot (Maintenance 2.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/admin.php:73 includes/functions.php:539
+msgid "Maintenance"
+msgstr "Maintenance"
+
+#: load/functions.php:258
+msgid "Username"
+msgstr "Användarnamn"
+
+#: includes/functions.php:404
+msgid "Extended functionality"
+msgstr "Utökad funktionalitet"
+
+#: includes/functions.php:362
+msgid "Have any questions?"
+msgstr "Har du några frågor?"
+
+#: includes/functions.php:346
+msgid "Background color"
+msgstr "Bakgrundsfärg"
+
+#: includes/functions.php:340
+msgid "Upload Background"
+msgstr "Ladda upp bakgrund"
+
+#: includes/functions.php:340
+msgid "Background image"
+msgstr "Bakgrundsbild"
+
+#: includes/functions.php:238
+msgid "503"
+msgstr "503"
+
+#: includes/functions.php:606
+msgid "Website will be available soon"
+msgstr "Webbplatsen är snart tillgänglig igen"
+
+#: includes/functions.php:605
+msgid "Maintenance mode is on"
+msgstr "Underhållsläge är på"
+
+#: includes/functions.php:604
+msgid "Website is under construction"
+msgstr "Webbplatsen är under konstruktion"
+
+#. Author of the plugin/theme
+msgid "fruitfulcode"
+msgstr "fruitfulcode"
+
+#: load/functions.php:49
+msgid "You entered your password are incorrect!"
+msgstr "Du har angett ett felaktigt lösenord!"
+
+#: includes/functions.php:409
+msgid "Demo website"
+msgstr "Demo-webbplats"
+
+#: includes/functions.php:252
+msgid "Background blur"
+msgstr "Bakgrunds-oskärpa"
+
+#: includes/functions.php:252
+msgid "Apply a blur"
+msgstr "Lägg till oskärpa"
+
+#: includes/functions.php:246
+msgid "Blur intensity"
+msgstr "Intensitet på oskärpa"
+
+#: includes/functions.php:237
+msgid "Admin bar"
+msgstr "Adminmeny"
+
+#: includes/functions.php:237
+msgid "Show admin bar"
+msgstr "Visa adminmenyn"
+
+#: includes/functions.php:265
+msgid "CSS Code"
+msgstr "CSS-kod"
+
+#: load/functions.php:261
+msgid "Login"
+msgstr "Logga in"
+
+#: load/functions.php:45
+msgid "You entered your login are incorrect!"
+msgstr "Dina inloggningsuppgifter är felaktiga!"
+
+#: load/functions.php:260
+msgid "Lost Password"
+msgstr "Glömt lösenord"
+
+#: includes/functions.php:168
+msgid "Google Web Fonts"
+msgstr "Google Web Fonts"
+
+#: includes/functions.php:374
+msgid "Premium WordPress themes"
+msgstr "Premium WordPress-teman"
+
+#: includes/functions.php:238
+msgid "Service temporarily unavailable"
+msgstr "Tjänsten är tillfälligt otillgänglig"
+
+#: load/functions.php:37
+msgid "Permission access denied!"
+msgstr "Åtkomst nekad!"
+
+#: includes/functions.php:325
+msgid "Not available object."
+msgstr "Ej tillgängligt objekt."
+
+#: includes/functions.php:279
+msgid "Select the page to be displayed:"
+msgstr "Välj sidan som ska visas:"
+
+#: includes/functions.php:245
+msgid "UA-XXXXX-X"
+msgstr "UA-XXXXX-X"
+
+#: includes/functions.php:363
+msgid "You may find answers to your questions at <a target=\"_blank\" href=\"http://wordpress.org/support/plugin/maintenance\">support forum</a><br>You may  <a target=\"_blank\" href=\"mailto:mail@fruitfulcode.com?subject=Maintenance plugin\">contact us</a> with customization requests and suggestions.<br> Please visit our website to learn about us and our services <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+msgstr "Du kanske hittar svar på dina frågor i <a target=\"_blank\" href=\"http://wordpress.org/support/plugin/maintenance\">supportforumet</a><br>Du kan  <a target=\"_blank\" href=\"mailto:mail@fruitfulcode.com?subject=Maintenance plugin\">kontakta oss</a> med beställningar av anpassningar eller med förslag.<br> Läs mer om oss och våra tjänster på vår webbplats <a href=\"%1$s\" title=\"%2$s\">%2$s</a>"
+
+#: includes/functions.php:405
+msgid "Purchase <a href=\"http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO</a> version  with extended functionality. %1$s If you like our plugin please <a target=\"_blank\" href=\"http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5\">rate it</a>, <a title=\"leave feedbacks\" href=\"%2$s\" target=\"_blank\">leave feedbacks</a>."
+msgstr "Köp <a href=\"http://codecanyon.net/item/maintenance-wordpress-plugin/2781350?ref=fruitfulcode\" target=\"_blank\">PRO-versionen</a> med utökade funktioner. %1$s Om du gillar vårt tillägg ber vi dig <a target=\"_blank\" href=\"http://wordpress.org/support/view/plugin-reviews/maintenance?filter=5\">recensera det</a>, <a title=\"kommentera\" href=\"%2$s\" target=\"_blank\">kommentera det</a>."
+
+#. Description of the plugin/theme
+msgid "Take your website for maintenance away from public view. Use maintenance plugin if your website is in development or you need to change a few things, run an upgrade. Make it only accessible by login and password. Plugin has a options to add a logo, background, headline, message, colors, login, etc. Extended PRO with more features version is available for purchase."
+msgstr "Stäng din webbplats för underhåll så att allmänheten inte kommer in. Använd tillägget ”Maintenance” om webbplatsen håller på att utvecklas eller medan du ändrar olika saker eller uppgraderar. Då kan den endast nås med hjälp av inloggning och lösenord. I tillägget finns alternativ för att lägga in logga, bakgrund, rubrik, meddelande, färger, inloggning m.m. Det går att köpa en utökad PRO-version med ytterligare funktioner."
+
+#: includes/functions.php:245
+msgid "Google Analytics ID"
+msgstr "ID för Google Analytics"
+
+#: includes/functions.php:253
+msgid "Login On / Off"
+msgstr "Inloggning till/från"
+
+#: includes/functions.php:380
+msgid "ANAGLYPH - One page / Multi Page WordPress Theme"
+msgstr "ANAGLYPH – WordPress-tema för en eller flera sidor"
+
+#: includes/functions.php:385
+msgid "Love.ly - Simple & Elegant WordPress theme"
+msgstr "Love.ly – Enkelt och elegant WordPress-tema"
+
+#: includes/functions.php:391
+msgid "Zoner - Real Estate WordPress theme"
+msgstr "Zoner – WordPress-tema för fastigheter"
+
+#: load/functions.php:257
+msgid "User Login"
+msgstr "Inloggning för användare"
+
+#: includes/functions.php:189
+msgid "Exclude pages"
+msgstr "Exkludera sidor"
+
+#: includes/functions.php:233
+msgid "Logo"
+msgstr "Logga"
+
+#: includes/functions.php:233
+msgid "Upload Logo"
+msgstr "Ladda upp logga"
+
+#: includes/functions.php:347
+msgid "Font color"
+msgstr "Textfärg"
+
+#: includes/functions.php:229
+msgid "Page title"
+msgstr "Sidrubrik"
+
+#: load/functions.php:52
+msgid "You entered your login and password are incorrect!"
+msgstr "Du angav din inloggning och lösenordet är felaktigt!"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/maintenance/"
+msgstr "http://sv.wordpress.org/plugins/maintenance/"

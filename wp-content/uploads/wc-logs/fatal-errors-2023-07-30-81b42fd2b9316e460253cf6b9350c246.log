@@ -1,0 +1,8 @@
+2023-07-30T10:19:13+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /home/customer/www/nextgates.com/public_html/wp-content/plugins/buddycommerce/src/core/users/filters/class-bc-url-filters.php:238
+Stack trace:
+#0 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('https://nextgat...', '23254')
+#1 /home/customer/www/nextgates.com/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters('https://nextgat...', Array)
+#2 /home/customer/www/nextgates.com/public_html/wp-content/plugins/wplms-application-forms/includes/class.woocommerce.php(392): apply_filters('woocommerce_get...', 'https://nextgat...', '23254')
+#3 /home/customer/www/nextgates.com/public_html/wp-content/plugins/wplms-application-forms/includes/class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3057', 3051)
+#4 /home/customer/www/nextgates.com/public_html/wp-includes/class-wp-hook.php(3 in /home/customer/www/nextgates.com/public_html/wp-content/plugins/buddycommerce/src/core/users/filters/class-bc-url-filters.php on line 238
+

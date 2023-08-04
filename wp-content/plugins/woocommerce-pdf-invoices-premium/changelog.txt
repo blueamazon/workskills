@@ -1,0 +1,285 @@
+*** WooCommerce PDF Invoices Premium Changelog ***
+
+= 2.0.8 - November 20, 2019 =
+
+- Fixed: Total rows not listing.
+
+= 2.0.7 - October 26, 2019 =
+
+- Improved: PDF attachment upload setting by using the native media library.
+
+= 2.0.6 - September 4, 2019 =
+
+- Improved: Not using VAT translation from WooCommerce anymore.
+
+= 2.0.5 - June 7, 2019 =
+
+* Fixed: Non-numeric value on empty order invoice generation.
+* Fixed: Fatal error on type of date on invoice.
+
+= 2.0.4 - May 31, 2019 =
+
+* Fixed: Sequential invoice numbering not incrementing.
+
+= 2.0.3 - May 21, 2019 =
+
+* Fixed: Moving get_formatted_base_address() to WPI() instance.
+
+= 2.0.2 - May 20, 2019 =
+
+* Added: Option to show discounted amounts instead of amounts excluding discounts.
+* Added: Item discount column and line discount column to Advanced Table Content.
+* Added: Option to change the type of date for credit notes and invoices.
+
+= 2.0.1 - April 25, 2019 =
+
+* Fixed: Fatal error PLUGIN_SLUG constant.
+* Fixed: Formatted base address not showing on credit note.
+
+2.0.0 - April, 2019
+
+* Added: Discount and total discount line items to Advanced Table Content feature.
+* Added: Option to show or hide tax labels on columns and total rows.
+* Added: Generate pdf credit notes bulk action.
+* Added: Option to add (custom) customer address fields.
+* Added: Plugin updates within WordPress dashboard/plugin page.
+* Improved: License activation/deactivation.
+* Improved: Settings pages not loading on every page request.
+* Fixed: Not able to remove logo url from settings.
+* Fixed: Non-dismissible admin notices by using post request instead of AJAX.
+* Fixed: Settings page link.
+* Fixed: Skipping invoice generation while Enable Request Invoice is not enabled.
+* Fixed: Credit note not generating when using order number as invoice number.
+* Fixed: Global invoices fatal error on BEWPI() function.
+
+1.6.13 - August 3, 2018
+
+* Added: Option to display used coupon codes.
+* Fixed: VAT column not always displayed.
+
+1.6.12 - July 26, 2018
+
+* Improved: Credit note document margins and template in general.
+* Fixed: EU B2B zero rated vat.
+* Fixed: Fixed total amount for invoice when a refund has been made and a credit note exists.
+* Fixed: Credit note fatal error for a full refund.
+
+1.6.11 - July 20, 2018
+
+* Fixed: Meta data fatal error credit notes.
+
+1.6.10 - May 12, 2018
+
+* Added: wpip_total_rows filter to add total rows.
+
+1.6.9 - February 18, 2018
+
+* Added: WooCommerce order action to send credit note email.
+* Improved: Always use minimal credit note template when still using older micro template for invoices.
+
+1.6.8 - January 17, 2018
+
+* Added: Bulk action to print pdf packing slips.
+* Added: 'wpi_bewpi_request_invoice_default_value' filter to change the default value of the request invoice checkout field.
+
+1.6.7 - November 13, 2017
+
+* Fixed: Enhanced select options not removable.
+* Fixed: Due date not showing on PDF invoice template.
+
+1.6.6 - October 19, 2017
+
+* Fixed: Parse error: syntax error, unexpected '::'.
+
+1.6.5 - October 18, 2017
+
+* Added: Option to set the days until Due Date.
+* Added: 'wpip_reminder_payment_methods' to select specific payment methods to sent reminder email.
+* Fixed: Order notes showing up within Credit Notes meta box.
+
+Important: Requires WooCommerce PDF Invoices version 2.9.8+.
+
+1.6.4 - October 10, 2017
+
+* Added: Ability to change the days until reminder per order.
+* Fixed: Cost including VAT showing incorrect data when using Advanced Table Content option.
+
+1.6.3 - September 13, 2017
+
+* Added: Credit notes and cancelled PDF invoices.
+* Added: Advanced options to fully customize columns and rows of table content. When using a custom template, make sure to update it!
+* Improved: Code by checking if invoice has already been sent to customer.
+* Fixed: Default settings values not getting set due to page specific execution.
+* Fixed: Credit notes getting generated twice when attached to email.
+
+Important: Requires WooCommerce PDF Invoices version 2.9.4+.
+
+1.6.2 - July 3, 2017
+
+* Added: All available email types to 'Attach to Emails' option.
+* Improved: Display line total including or excluding tax based on woocommerce cart option.
+* Fixed: Duplicate fee total rows on global invoice by updating existing.
+* Fixed: GLOB_BRACE not working for some non-linux hosting.
+* Fixed: Bulk actions on shop order page not displayed.
+* Fixed: Bulk Export PDF Packing Slips invalid zip file.
+* Fixed: PDF global invoice not getting sent to customer.
+* Fixed: Global invoice not using 'get_order_number()'.
+* Fixed: 'bewpi_options' filter `$group` parameter not using correct option name.
+* Fixed: WC 2.6 compatibility.
+
+1.6.1 - May 20, 2017
+
+* Added: Bulk Generate and Export packing slips actions.
+* Added: Request invoice feature that adds a checkout field to request a PDF invoice.
+* Fixed: Global invoice not showing correct subtotal and total.
+* Removed: Option to show line item totals including tax for global invoice.
+
+1.6.0 - May 11, 2017
+
+* Added: Notice and section description message to use the micro template for global invoices.
+* Added: PDF Invoice reminder feature to automatically send a custom reminder email after a configurable period of time.
+* Added: Composer to autoload classes.
+* Improved: File names by removing all unnecessary prefixes.
+* Improved: Settings class by a complete refactor due to the refactor of WooCommerce PDF Invoices 2.9.0.
+* Fixed: Global invoice not always generated due to new company logo option.
+* Fixed: Global invoice order item meta data.
+* Removed: Unused public.css file.
+
+Important: Requires WooCommerce PDF Invoices version 2.9.0+.
+
+1.5.4 - May 9, 2017
+
+* Fixed: Generate global invoice from my account page for year or month.
+
+1.5.3 - April 28, 2017
+
+* Added: Line item VAT on minimal template in new class `BEWPIP_Invoice`.
+* Improved: JavaScript by only running code on correct page.
+* Fixed: WPML and Polylang admin text translations.
+* Fixed: Adding additional PDF files by adding document type check.
+* Fixed: PDF invoices not getting updated when using bulk action.
+
+Important: Requires WooCommerce PDF Invoices version 2.8.1+.
+
+1.5.2 - April 19, 2017
+
+* Improved: Method name `save()` by renaming it to `generate()`.
+
+1.5.1 - April 18, 2017
+
+* Fixed: 'PHP Fatal error: Call to undefined function is_plugin_active()' by not checking on frontend/non-admin.
+
+1.5.0 - April 13, 2017
+
+* Added: bewpip_bulk_generate_pdf_invoices_end action filter to execute custom code after bulk generation.
+* Added: Polylang compatibility.
+* Added: 'class-bewpip-font.php' class which automatically loads custom fonts from new uploads/woocommerce-pdf-invoices/fonts directory.
+* Improved: Class and file names by using shorter prefix 'bewpip' instead of 'bewpipremium'.
+* Improved: Code by moving all global invoice code from 'be-woocommerce-pdf-invoices-premium.php' to 'class-bewpipremium-invoice-global.php'.
+* Improved: File structure by moving partials to includes/admin/views.
+* Improved: Plugin activation and version checks by showing admin notices also on load.
+* Fixed: WooCommerce 3.x.x+ compatibility.
+* Fixed: WPML compatibility.
+* Fixed: Select type settings by changing option 'name' to 'id' and added version to scripts.
+
+Important: Requires WooCommerce PDF Invoices version 2.7.0+.
+
+1.4.2 - March 6, 2017
+
+* Fixed: Global invoice order date always showing current date.
+
+Important: Requires WooCommerce PDF Invoices version 2.6.4+.
+
+1.4.1 - February 25, 2017
+
+* Improved: Adding Bulk PDF Invoice actions to bottom action select-list.
+
+1.4.0 - January 29, 2017
+
+* Added: Bulk generate PDF invoices on "Shop Order" page.
+* Fixed: "Bulk Export PDF Invoices" action not exporting PDF invoices for selected orders.
+
+1.3.9 - January 29, 2017
+
+* Fixed: Email not attached to emails by getting full path of file instead of only formatted invoice number.
+* Fixed: 'Fatal error: Call to a member function is_virtual() on boolean' by changing expression from 'null' to 'boolean' due to type checking operator. Update your custom global template!
+* Fixed: 'Fatal error: Call to a member function get_title() on a non-object' when trying to generate invoice with deleted product. Update your custom global template!
+
+Important: Requires WooCommerce PDF Invoices version 2.6.0+.
+
+1.3.8 - January 20, 2017
+
+* Added: Bulk export PDF invoices to zip file.
+
+Important: Requires WooCommerce PDF Invoices version 2.5.6+.
+
+1.3.7 - January 19, 2017
+
+* Improved: Database calls to check if pdf invoice exists.
+
+1.3.6 - January 18, 2017
+
+* Fixed: "PHP Fatal error: Uncaught MpdfException: `<tfoot>` must precede `<tbody>` in a table" for global invoice.
+
+1.3.5 - January 11, 2017
+
+* Improved: WPML string translations by adding invoice title option.
+* Improved: `taxes_count` variable to independent `tax_count` BEWPI_Abstract_Invoice object variable.
+
+1.3.4 - January 4, 2017
+
+* Added: Custom hidden order itemmeta filter to template file.
+* Added: Class BEWPIPREMIUM_Install to separate concerns.
+* Improved: Class BEWPIPREMIUM_Settings by following WPCS and using constants.
+* Improved: Invoice attachment and email BCC header code.
+* Improved: WooCommerce Subscriptions email selectlist to multiple checkboxes in order to attach invoice to multiple email types.
+* Removed: Use of BEWPI_TEMPLATES_INVOICES_DIR and using BEWPI_INVOICES_DIR instead.
+* Removed: Action 'mk_custom_template_invoices_dir' because is has been renamed to 'bewpi_after_setup_directories'.
+
+1.3.3 - November 15, 2016
+
+* Improved: Requiring files and loading plugin only if needed.
+* Fixed: Polylang and WPML conflicts by only using WPML API.
+* Fixed: PDF attachment option empty check.
+
+1.3.2 - October 8, 2016
+
+* Fixed: Total with refund calculation.
+
+1.3.1 - October 7, 2016
+
+* Fixed: Paid watermark showing on attached pdf files.
+
+1.3.0 - September 23, 2016
+
+* Added: WPML integration (global invoices not supported yet).
+* Added: Send invoice as reminder after specific period of time.
+* Fixed: Attaching PDF attachment to PDF invoice.
+* Fixed: Total calculation with refund.
+* Fixed: Payment method not showing in footer of global invoice.
+
+1.2.0 - March 4, 2016
+
+* Improved: Global invoice template margin between logo and addresses.
+* Improved: 'plugins_loaded' priority due to free version.
+* Improved: Code, text and more.
+* Fixed: Global invoice 'init' function not checking for nonce.
+* Removed: Language files due to usage of free plugin textdomain.
+
+1.1.3 - December 25, 2015
+
+* Fixed: Plugin license activation by adding site url to request
+* Improved: Date translations by using date_i18n()
+
+1.1.2 - December 13, 2015
+
+* Fixed: Customer generated invoice not saved and sent by email.
+
+1.1.1 - December 13, 2015
+
+* Fixed: Months in customer generation dropdown on account page not unique.
+
+1.0.1 - December 12, 2015
+
+* Added: Options to choose WooCommerce Subscriptions plugin emails.
+* Added: Functionality to generate a global invoice by month or year from customer account page.

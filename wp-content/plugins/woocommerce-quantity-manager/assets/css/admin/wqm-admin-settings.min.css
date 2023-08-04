@@ -1,0 +1,5 @@
+/*!
+ * WooCommerce Quantity Manager 2.2.1
+ * Copyright 2022 Barn2 Plugins
+ */
+.wqm_error_tip{background:#333;background:#d82223;border-radius:3px;box-shadow:0 1px 3px rgba(0,0,0,.2);color:#fff;font-size:.8em;line-height:1.8em;margin:1.5em 1px 0 -1em;max-width:20em;padding:.618em 1em;position:absolute;text-align:center;white-space:normal;z-index:9999999}.wqm_error_tip code{background:#888;padding:1px}.wqm_error_tip:after{border:8px solid transparent;border-bottom-color:#d82223;content:"";display:block;left:50%;margin:-1em 0 0 -3px;position:absolute;top:-3px}#quantity_manager_roles+span.select2-container{max-width:100%}.wqm-min-max-input-container{display:flex;max-width:480px}.wqm-min-max-input-container label.wqm-min-max-label{align-items:center;display:flex;margin-right:25px;position:relative}.wqm-min-max-input-container label.wqm-min-max-label input.wqm-quantity-input{margin-left:10px!important;max-width:100px}@media screen and (max-width:460px){.wqm-min-max-input-container{flex-direction:column}.wqm-min-max-input-container span{min-width:62px}.wqm-min-max-input-container label.wqm-min-max-label{justify-content:flex-start;margin-bottom:5px;margin-right:0}}

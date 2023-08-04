@@ -1,0 +1,118 @@
+wp_posts,4625,post_type,Type,course
+wp_posts,4625,post_title,Title,"E-Commerce and Strategy"
+wp_posts,4625,post_date,Date,"2020-01-13 17:42:19"
+wp_posts,4625,post_content,Content,"Electronic Commerce, or E-Commerce, refers to any type of commercial/business transaction where information, data, products and services are exchanged across the internet. These transactions can cover a wide diversity of business types to include: consumer-based retail sites (e.g. Amazon), sites that provide facilities such as auctions (e.g. eBay) and business exchanges between different organisations. E-Commerce allows consumers to electronically exchange goods and services 24/7 with no barriers in terms of time or geography.
+
+Within this course students will gain an understanding of how and why businesses and organisations develop E-Commerce strategies: to remain competitive in the global market. Students will also appreciate the elements and resources required to set up an E-Commerce site and be engaged in the design and implementation of their own strategies that would in reality form part of a secure E-Commerce site.
+
+Students will examine the impact that E-Commerce has on society and the global market for consumers, buyers and sellers in terms of the benefits and drawbacks of online purchasing. Through investigation, students will also research the technologies involved in setting up a secure E-Commerce site in preparation for their own ECommerce strategy.
+
+There is an expectation that students will devise a strategy based on an element of ECommerce such as designing a shopping cart, an ordering system, payment system or an online marketing system, for example. This design should be fully implemented and evaluated accordingly in terms of its success or failure. Standards and levels of support, marketing, CRM, promotion and supply chain management will all be explored within the context of developing the implementation strategy.
+
+On successful completion of this course a student will have gained both a technical and practical insight into E-Commerce strategy, design and development. As a result they will develop skills such as communication literacy, critical thinking, analysis, reasoning and interpretation, which are crucial for gaining employment and developing academic competence.
+<h3>Learning Objectives</h3>
+By the end of this course a student will be able to:
+
+<strong>LO1</strong> Examine the strategies employed and the impact of E-Commerce on business organisations.
+
+<strong>LO2</strong> Analyse the hardware, software, web-based and database technologies involved in setting up a secure E-Commerce site.
+
+<strong>LO3</strong> Design an E-Commerce strategy based on a given end user requirement or specification.
+
+<strong>LO4</strong> Implement an E-Commerce strategy based on a given end user requirement or specification."
+wp_posts,4625,post_author,"Author ID",1
+wp_posts,4625,post_excerpt,Excerpt,
+wp_posts,4625,post_status,Status,publish
+wp_posts,4625,post_name,Slug,e-commerce-and-strategy
+wp_posts,4625,comment_count,"Review/Note/Answer Count",0
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_word_count," wpml word count","{""total"":410,""to_translate"":{""ar"":410,""sv"":410}}"
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_featured," wpml media featured",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_wpml_media_duplicate," wpml media duplicate",0
+wp_postmeta,4625,_edit_lock," edit lock",1585950061:1
+wp_postmeta,4625,_edit_last," edit last",1
+wp_postmeta,4625,_wpml_location_migration_done," wpml location migration done",1
+wp_postmeta,4625,slide_template,"Slide template",default
+wp_postmeta,4625,_wpb_vc_js_status," wpb vc js status",false
+wp_postmeta,4625,vibe_sidebar,Sidebar,coursesidebar
+wp_postmeta,4625,vibe_duration,"Total Duration of Course",4
+wp_postmeta,4625,vibe_course_duration_parameter,"Course Duration parameter",2592000
+wp_postmeta,4625,vibe_students,"Total number of Students in Course",0
+wp_postmeta,4625,vibe_course_prev_unit_quiz_lock,"Unit Completion Lock",S
+wp_postmeta,4625,vibe_course_offline,"Offline Course",S
+wp_postmeta,4625,vibe_course_unit_content,"Show Unit content in Curriculum",H
+wp_postmeta,4625,vibe_course_button,"Hide Course Button after subscription",H
+wp_postmeta,4625,vibe_course_progress,"Display Course Progress on Course home",S
+wp_postmeta,4625,vibe_course_auto_progress,"Time based Course Progress ",H
+wp_postmeta,4625,vibe_course_review,"Post Course Reviews from Course Home",H
+wp_postmeta,4625,vibe_course_auto_eval,"Auto Evaluation",H
+wp_postmeta,4625,vibe_start_date,"Course Start Date",
+wp_postmeta,4625,vibe_max_students,"Maximum Students in Course",
+wp_postmeta,4625,vibe_course_badge,"Excellence Badge"," "
+wp_postmeta,4625,vibe_course_badge_percentage,"Badge Percentage",
+wp_postmeta,4625,vibe_course_badge_title,"Badge Title",
+wp_postmeta,4625,vibe_course_certificate,"Completion Certificate",S
+wp_postmeta,4625,vibe_certificate_template,"Certificate Template",2164
+wp_postmeta,4625,vibe_course_passing_percentage,"Passing Percentage",70
+wp_postmeta,4625,vibe_course_drip,"Drip Feed",H
+wp_postmeta,4625,vibe_course_drip_origin,"Course Starting Time as Drip Feed Origin",S
+wp_postmeta,4625,vibe_course_section_drip,"Section Drip Feed",H
+wp_postmeta,4625,vibe_course_drip_duration_type,"Drip Duration as Unit Duration",H
+wp_postmeta,4625,vibe_course_drip_duration,"Drip Feed Duration (Static)",36
+wp_postmeta,4625,vibe_drip_duration_parameter,"Drip Duration parameter",3600
+wp_postmeta,4625,ng_course_type,"Course Type",H
+wp_postmeta,4625,vibe_course_curriculum,"Course Curriculum",
+wp_postmeta,4625,ng_diploma_curriculum,"Diploma Curriculum",
+wp_postmeta,4625,vibe_pre_course,"Prerequisite Course",
+wp_postmeta,4625,vibe_course_retakes,"Course Retakes",0
+wp_postmeta,4625,vibe_forum,"Course Forum",819
+wp_postmeta,4625,vibe_group,"Course Group",
+wp_postmeta,4625,vibe_course_instructions,"Course specific instructions"," "
+wp_postmeta,4625,vibe_course_message,"Course Completion Message"," "
+wp_postmeta,4625,vibe_course_details,"Custom Course details","<i class=""fa fa-tasks""></i>15 Credits|<i class=""fa fa-toggle-on""></i>Optional|<i class=""fa fa-language""></i>English|<i class=""fa fa-graduation-cap""></i>Self Study"
+wp_postmeta,4625,vibe_take_this_course,"Vibe take this course",
+wp_postmeta,4625,vibe_course_free,"Vibe course free",H
+wp_postmeta,4625,vibe_partial_free_course,"Vibe partial free course",H
+wp_postmeta,4625,vibe_course_apply,"Vibe course apply",S
+wp_postmeta,4625,vibe_coming_soon,"Vibe coming soon",S
+wp_postmeta,4625,vibe_course_codes,"Vibe course codes"," "
+wp_postmeta,4625,vibe_wplms_application_forms,"Vibe wplms application forms",H
+wp_postmeta,4625,post_title,"Post title","Human Resource Management"
+wp_postmeta,4625,vibe_subscription1,"Vibe subscription1",H
+wp_postmeta,4625,vibe_product_duration_parameter,"Vibe product duration parameter",86400
+wp_postmeta,4625,ID,ID,1285
+wp_postmeta,4625,vibe_title_bg,"Vibe title bg",1284
+wp_postmeta,4625,vibe_select_featured,"Vibe select featured",0
+wp_postmeta,4625,post_video,"Post video",
+wp_postmeta,4625,average,Average,0
+wp_postmeta,4625,vibe_product,"Vibe product",4626
+wp_postmeta,4625,vibe_pmpro_membership,"Vibe pmpro membership",
+wp_postmeta,4625,vibe_course_external_link,"Vibe course external link",
+wp_postmeta,4625,vibe_wplms_application_forms_editor,"Vibe wplms application forms editor"," "
+wp_postmeta,4625,header_background_image,"Header Background Image",5268
+wp_postmeta,4625,_thumbnail_id," thumbnail id",4633
+wp_terms,4625,level,Terms,"BTEC Level 5"
+wp_terms,4625,course-cat,Terms,"BTEC Level 5,Business Courses,Distance Learning,Online Study"

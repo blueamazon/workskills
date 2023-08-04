@@ -1,0 +1,834 @@
+# Copyright (C) 2021 Barn2 Plugins
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Quantity Manager 2.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/woocommerce-quantity-manager\n"
+"POT-Creation-Date: 2021-11-26 12:04:39+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: node-wp-i18n 1.2.3\n"
+
+#: dependencies/src/Setup_Wizard.php:443
+#: vendor/barn2/setup-wizard/src/Setup_Wizard.php:512
+msgid "%s setup wizard"
+msgstr ""
+
+#: dependencies/src/Setup_Wizard.php:571 dependencies/src/Setup_Wizard.php:579
+#: dependencies/src/Setup_Wizard.php:614
+#: vendor/barn2/setup-wizard/src/Setup_Wizard.php:690
+#: vendor/barn2/setup-wizard/src/Setup_Wizard.php:692
+#: vendor/barn2/setup-wizard/src/Setup_Wizard.php:731
+msgid "Setup wizard"
+msgstr ""
+
+#: dependencies/src/Setup_Wizard.php:574
+#: vendor/barn2/setup-wizard/src/Setup_Wizard.php:691
+msgid ""
+"If you need to access the setup wizard again, please click on the button "
+"below."
+msgstr ""
+
+#: dependencies/src/Setup_Wizard.php:593 dependencies/src/Setup_Wizard.php:626
+#: vendor/barn2/setup-wizard/src/Setup_Wizard.php:704
+#: vendor/barn2/setup-wizard/src/Setup_Wizard.php:753
+msgid ""
+"Warning: This will overwrite your existing settings for %s. Are you sure "
+"you want to continue?"
+msgstr ""
+
+#: dependencies/src/Steps/Cross_Selling.php:66
+#: vendor/barn2/setup-wizard/src/Steps/Cross_Selling.php:84
+msgid ""
+"Something went wrong while retrieving the list of products. Please try "
+"again later."
+msgstr ""
+
+#: dependencies/src/Steps/Welcome.php:25
+#: src/Admin/Wizard/Steps/License_Verification.php:22
+#: vendor/barn2/setup-wizard/src/Steps/Welcome.php:25
+msgid "Welcome"
+msgstr ""
+
+#: dependencies/src/Steps/Welcome.php:33
+#: lib/Plugin/License/Admin/License_Key_Setting.php:137
+#: vendor/barn2/setup-wizard/src/Steps/Welcome.php:36
+msgid "License key"
+msgstr ""
+
+#: dependencies/src/Steps/Welcome.php:33
+#: vendor/barn2/setup-wizard/src/Steps/Welcome.php:37
+msgid "Enter your license key to start using the plugin."
+msgstr ""
+
+#: dependencies/src/Steps/Welcome.php:33
+#: lib/Plugin/License/Admin/License_Key_Setting.php:145
+#: src/Admin/Wizard/Setup_Wizard.php:47
+#: vendor/barn2/setup-wizard/src/Steps/Welcome.php:38
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+
+#: dependencies/src/Steps/Welcome.php:43
+#: vendor/barn2/setup-wizard/src/Steps/Welcome.php:52
+msgid "You are not allowed to validate your license."
+msgstr ""
+
+#: dependencies/src/Steps/Welcome.php:47
+#: vendor/barn2/setup-wizard/src/Steps/Welcome.php:58
+msgid "Please enter a license key."
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:72
+#. translators: %s: The plugin name
+msgid "View %s documentation"
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:73
+msgid "Docs"
+msgstr ""
+
+#: lib/Plugin/Admin/Plugin_Updater.php:121
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:64
+msgid "License key successfully activated."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:65
+msgid "There was an error activating your license key."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:73
+msgid "License key successfully deactivated."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:74
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:81
+msgid "The license key looks good!"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:82
+msgid "There's a problem with your license key."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:148
+msgid "License Key"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:174
+msgid "Check"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:175
+msgid "Activate"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:176
+msgid "Deactivate"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:187
+msgid "License key deactivated."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:90
+#. translators: 1: the plugin name, 2: settings link open, 3: settings link
+#. close.
+msgid ""
+"Thank you for installing %1$s. To get started, please %2$senter your "
+"license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:107
+#. translators: 1: plugin name, 2: renewal link open, 3: renewal link close.
+msgid ""
+"Your license key for %1$s has expired. %2$sClick here to renew for 20%% "
+"discount%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:124
+#. translators: 1: plugin name, 2: renewal link open, 3: renewal link close.
+msgid ""
+"You no longer have a valid license for %1$s. Please %2$spurchase a new "
+"license key%3$s to continue using the plugin."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:145
+#. translators: 1: plugin name, 2: settings link open, 3: settings link close.
+msgid ""
+"%1$s - your site has moved to a new domain. Please %2$sreactivate your "
+"license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/EDD_Licensing.php:184
+msgid "An error has occurred, please try again."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:92
+msgid "Your license key is active."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:112
+msgid "Please enter your license key."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:114
+#: lib/Plugin/License/Plugin_License.php:381
+msgid "Your license key is invalid."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:320
+#. translators: 1: account page link open, 2: account page link close
+msgid ""
+"Invalid license key - please check your order confirmation email or "
+"%1$sAccount%2$s."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:326
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:329
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:332
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:336
+msgid "Your license key is not valid for this plugin."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:342
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Plugin/License/Plugin_License.php:345
+msgid "Your license key has reached its activation limit (%s)."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:346 lib/Util.php:39
+msgid "Read more"
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:349
+#: lib/Plugin/License/Plugin_License.php:370 src/Notice_Helper.php:261
+#. translators: support for RTL. 1: license limit error message, 2: a read more
+#. link
+#. translators: support for RTL. 1: expired license error message, 2: a renewal
+#. link
+#. translators: 1: Amount 2: Unit string, seperately translatable
+msgid "%1$s %2$s"
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:363
+#. translators: %s: The license expiry date
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:367
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:622
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:626
+msgid "Your license key has expired."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:631
+msgid ""
+"Your license key has been disabled. Please %1$spurchase a new license "
+"key%2$s to continue using the plugin."
+msgstr ""
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:80
+msgid "Color"
+msgstr ""
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:91
+msgid "Size"
+msgstr ""
+
+#: src/Admin/Admin.php:51 src/Admin/Settings_Page.php:142
+msgid "Quantity Manager"
+msgstr ""
+
+#: src/Admin/Admin.php:72
+msgid "You cannot have a minimum value greater than your maximum value."
+msgstr ""
+
+#: src/Admin/Admin.php:73
+msgid "You cannot have a maximum value less than your minimum value."
+msgstr ""
+
+#: src/Admin/Category_Edit.php:59 src/Admin/Category_Edit.php:85
+#: src/Admin/Product_Edit.php:50 src/Admin/Product_Edit.php:171
+msgid "Quantity rules"
+msgstr ""
+
+#: src/Admin/Category_Edit.php:60 src/Admin/Category_Edit.php:86
+msgid ""
+"Enter a whole number to set a minimum and/or maximum number of items that "
+"can be purchased from the category. This can be overridden for specific "
+"products or variations."
+msgstr ""
+
+#: src/Admin/Category_Edit.php:109 src/Admin/Category_Edit.php:132
+#: src/Admin/Product_Edit.php:84 src/Admin/Product_Edit.php:205
+msgid "Value rules (%s)"
+msgstr ""
+
+#: src/Admin/Category_Edit.php:110 src/Admin/Category_Edit.php:133
+msgid ""
+"Enter a price without the currency symbol (e.g. 10 or 15.99) to set a "
+"minimum and/or maximum value that can be purchased from the category. This "
+"can be overridden for specific products or variations."
+msgstr ""
+
+#: src/Admin/Category_Edit.php:152 src/Admin/Category_Edit.php:176
+#: src/Admin/Product_Edit.php:120 src/Admin/Product_Edit.php:122
+#: src/Admin/Product_Edit.php:238 src/Admin/Product_Edit.php:242
+msgid "Default quantity"
+msgstr ""
+
+#: src/Admin/Category_Edit.php:198
+msgid ""
+"Enter a whole number to force customers to purchase from the category in "
+"specific increments. For example, if you enter 5 then customers must select "
+"multiples of 5, 10, 15, etc. before they can complete their order. This can "
+"be overridden for specific products or variations."
+msgstr ""
+
+#: src/Admin/Category_Edit.php:199 src/Admin/Category_Edit.php:230
+msgid ""
+"Enter a whole number to force customers to purchase from the category in "
+"specific increments. For example, if you enter 5 then customers must add "
+"items from the category in multiples of 5, 10, 15, etc. before they can "
+"complete their order. This can be overridden for specific products or "
+"variations."
+msgstr ""
+
+#: src/Admin/Category_Edit.php:203 src/Admin/Category_Edit.php:229
+#: src/Admin/Product_Edit.php:148 src/Admin/Product_Edit.php:150
+#: src/Admin/Product_Edit.php:267 src/Admin/Product_Edit.php:273
+#: src/Admin/Settings_Page.php:187 src/Admin/Wizard/Steps/Step_Rules.php:46
+msgid "Quantity step values"
+msgstr ""
+
+#: src/Admin/Product_Edit.php:55
+msgid ""
+"Enter a whole number to set a minimum and/or maximum number of the product "
+"that can be purchased."
+msgstr ""
+
+#: src/Admin/Product_Edit.php:89
+msgid ""
+"Enter a price without the currency symbol (e.g. 10 or 15.99) to set a "
+"minimum and/or maximum value of the product that can be purchased."
+msgstr ""
+
+#: src/Admin/Product_Edit.php:137 src/Admin/Product_Edit.php:260
+msgid ""
+"Enter a whole number to force customers to purchase in specific increments. "
+"For example, if you enter 5 then customers must select multiples of 5, 10, "
+"15, etc. before they can complete their order."
+msgstr ""
+
+#: src/Admin/Product_Edit.php:138
+msgid ""
+"Enter a whole number to force customers to purchase in specific increments. "
+"For example, if you enter 5 then customers must add the product in "
+"multiples of 5, 10, 15, etc. before they can complete their order"
+msgstr ""
+
+#: src/Admin/Product_Edit.php:174
+msgid ""
+"Enter a whole number to set a minimum and/or maximum number of the "
+"variation that can be purchased."
+msgstr ""
+
+#: src/Admin/Product_Edit.php:208
+msgid ""
+"Enter a price without the currency symbol (e.g. 10 or 15.99) to set a "
+"minimum and/or maximum value of the variation that can be purchased."
+msgstr ""
+
+#: src/Admin/Product_Edit.php:261
+msgid ""
+"Enter a whole number to force customers to purchase in specific increments. "
+"For example, if you enter 5 then customers must add the variation in "
+"multiples of 5, 10, 15, etc. before they can complete their order."
+msgstr ""
+
+#: src/Admin/Product_Edit.php:377
+msgid "This can be overridden for specific variations."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:41
+msgid "Quantity manager"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:144
+msgid "The following options control the WooCommerce Quantity Manager extension."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:146
+msgid "Documentation"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:148
+msgid "Support"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:157 src/Admin/Wizard/Steps/Order_Rules.php:36
+msgid "Order quantity rules"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:164 src/Admin/Wizard/Steps/Order_Rules.php:37
+msgid ""
+"Enter a whole number to set a minimum and/or maximum number of items that "
+"can be purchased in the entire cart. This can be overridden for specific "
+"categories, products or variations."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:169 src/Admin/Wizard/Steps/Order_Rules.php:55
+#. translators: %s: WooCommerce Currency Symbol
+msgid "Order value rules (%s)"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:173 src/Admin/Wizard/Steps/Order_Rules.php:56
+msgid ""
+"Enter a price without the currency symbol (e.g. 10 or 15.99) to set a "
+"minimum and/or maximum value for the entire cart. This can be overridden "
+"for specific categories, products or variations."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:177 src/Admin/Wizard/Steps/Step_Rules.php:37
+msgid "Global default quantity"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:182 src/Admin/Wizard/Steps/Step_Rules.php:38
+msgid ""
+"Choose a default quantity for all your products. You can override this for "
+"individual categories/products."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:195
+msgid ""
+"Enter a whole number to force customers to purchase in specific quantity "
+"increments. For example, if you enter 5 then this will force quantity "
+"groupings of 5, 10, 15, 20, etc. This can be overridden for specific "
+"categories, products or variations."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:196
+msgid ""
+"Enter a whole number to force customers to purchase in specific quantity "
+"increments. For example, if you enter 5 then each product can only be "
+"bought in a quantity of 5, 10, 15, 20, etc. This can be overridden for "
+"specific categories, products or variations."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:201 src/Admin/Wizard/Steps/Step_Rules.php:55
+msgid "Step value calculation"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:206 src/Admin/Wizard/Steps/Step_Rules.php:61
+msgid "Individual products/variations"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:207 src/Admin/Wizard/Steps/Step_Rules.php:65
+msgid "Share across multiple products"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:209 src/Admin/Wizard/Steps/Step_Rules.php:56
+msgid ""
+"Choose whether to enforce the quantity step value individually for each "
+"product/variation, or to share it so that customers can combine multiple "
+"products to meet the required step value."
+msgstr ""
+
+#: src/Admin/Settings_Page.php:213 src/Admin/Settings_Page.php:216
+msgid "User roles"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:217
+msgid "Select roles&hellip;"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:222
+msgid ""
+"Select which roles the quantity rules will apply to. This will affect all "
+"your quantity rules, including those for individual categories, products "
+"and variations."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Completed.php:23
+msgid "Ready"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Completed.php:24
+msgid "Complete Setup"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Completed.php:26
+msgid ""
+"Congratulations, you have finished setting up the plugin! Your global "
+"quantity rules will start working straight away. You can also add quantity "
+"rules for specific %1$s and %2$s."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Completed.php:27
+msgid "categories"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Completed.php:28 src/Notice_Helper.php:288
+#. translators: Unit string for global rules
+msgid "products"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:23
+msgid "Start adding quantity rules in no time."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:24
+msgid ""
+"Use this setup wizard to add some global quantity rules to your store. You "
+"can change these options later on the plugin settings page or by "
+"relaunching the setup wizard. You can also set quantity rules for specific "
+"categories and products."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:24
+msgid "Cart Rules"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:25
+msgid "Do you want to set minimum or maximum quantity rules for the entire cart?"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:26
+msgid "Order Quantity Rules"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:40 src/Util/Field.php:62
+#: src/Util/Field.php:76
+msgid "Minimum"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:45 src/Util/Field.php:63
+#: src/Util/Field.php:89
+msgid "Maximum"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:60
+#. translators: %s: WooCommerce Currency Symbol
+msgid "Minimum (%s)"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:66
+#. translators: %s: WooCommerce Currency Symbol
+msgid "Maximum (%s)"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:86
+#: src/Admin/Wizard/Steps/Step_Rules.php:84 src/Admin/Wizard/Wizard.php:27
+msgid "You are not authorized."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:95
+msgid "Invalid quantity rules provided."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Order_Rules.php:99
+msgid "Invalid value rules provided."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Step_Rules.php:25
+msgid "Defaults & Step Values"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Step_Rules.php:26
+msgid ""
+"You can also set a default quantity value and force customers to buy in "
+"specific quantity increments."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Step_Rules.php:27
+msgid "Quantity Defaults & Step Values"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Step_Rules.php:47
+msgid ""
+"Enter a whole number to force customers to purchase in specific quantity "
+"increments. This can be overridden for specific categories, products or "
+"variations."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Step_Rules.php:94
+msgid "Please enter a whole number for the default quantity."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Step_Rules.php:98
+msgid "Please enter a whole number for the quantity step"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Upsell.php:22
+msgid "More"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Upsell.php:26
+#. translators: %1$s: URL to All Access Pass page %2$s: URL to the KB about the
+#. upgrading process
+msgid ""
+"Enhance your store with these fantastic plugins from Barn2, or get them all "
+"by upgrading to an <a href=\"%1$s\" target=\"_blank\">All Access Pass<a/>! "
+"<a href=\"%2$s\" target=\"_blank\">(learn how here)</a>"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Upsell.php:31
+msgid "Extra features"
+msgstr ""
+
+#: src/Notice_Helper.php:24
+#. translators: 2: Global cart value rules comparison string. These are
+#. seperately translatable. e.g. between $1 and $5
+msgid "Your cart total must be %2$s before you can complete your order."
+msgstr ""
+
+#: src/Notice_Helper.php:26
+#. translators: 2: Global cart quantity rules comparison string. These are
+#. seperately translatable. e.g. 'between 2 and 3 products'
+msgid "Your cart must contain %2$s before you can complete your order."
+msgstr ""
+
+#: src/Notice_Helper.php:28 src/Notice_Helper.php:38 src/Notice_Helper.php:48
+#: src/Notice_Helper.php:50 src/Notice_Helper.php:58 src/Notice_Helper.php:60
+#: src/Notice_Helper.php:68 src/Notice_Helper.php:70
+#. translators: 1: Product name 2: Quantity step
+#. translators: 1: Product name 2: The quantity step
+#. translators: 1: Product name 2: The quantity step
+#. translators: 1: Product name 2: Quantity step
+#. translators: 1: Product name 2: Quantity step
+#. translators: 1: Product name 2: Quantity step rule value
+#. translators: 1: Product name 2: Quantity step rule value
+msgid ""
+"The quantity of &quot;%1$s&quot; must be a multiple of %2$s before you can "
+"complete your order."
+msgstr ""
+
+#: src/Notice_Helper.php:30
+#. translators: 2: Quantity step
+msgid ""
+"The quantity in your cart must be a multiple of %2$s before you can "
+"complete your order."
+msgstr ""
+
+#: src/Notice_Helper.php:34
+#. translators: 1: Category name 2: Category cart value rules comparison
+#. string. These are seperately translatable. e.g. between $1 and $5
+msgid ""
+"Your total spend from the &quot;%1$s&quot; category must be %2$s before you "
+"can complete your order."
+msgstr ""
+
+#: src/Notice_Helper.php:36
+#. translators: 1: Category name 2: Category cart quantity rules comparison
+#. string. These are seperately translatable. e.g. 'between 2 and 3 items' or
+#. 'more than 4 items'
+msgid ""
+"Your cart must contain %2$s from the &quot;%1$s&quot; category before you "
+"can complete your order."
+msgstr ""
+
+#: src/Notice_Helper.php:40
+#. translators: 1: Category name 2: Quantity step
+msgid ""
+"The quantity of the &quot;%1$s&quot; category must be a multiple of %2$s "
+"before you can complete your order."
+msgstr ""
+
+#: src/Notice_Helper.php:44 src/Notice_Helper.php:54 src/Notice_Helper.php:64
+#. translators: 1: Product name 2: Product cart value rules comparison string.
+#. These are seperately translatable. e.g. 'between $100 and $500' or 'more
+#. than $100'
+msgid "You must spend %2$s on &quot;%1$s&quot; before you can complete your order."
+msgstr ""
+
+#: src/Notice_Helper.php:46 src/Notice_Helper.php:56 src/Notice_Helper.php:66
+#. translators: 1: Product name 2: Product cart quantity rules comparison
+#. string. These are seperately translatable. e.g. 'between 2 and 3 units' or
+#. 'less than 3 units'
+msgid ""
+"Your cart must contain %2$s of &quot;%1$s&quot; before you can complete "
+"your order."
+msgstr ""
+
+#: src/Notice_Helper.php:81
+#. translators: 2: Global cart max value rule 3: Product name
+msgid ""
+"You cannot add &quot;%3$s&quot; because the cart value must be less than "
+"%2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:83
+#. translators: 2: Global cart max quantity rule 3: Product name
+msgid ""
+"You cannot add &quot;%3$s&quot; because the cart has a maximum quantity of "
+"%2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:85 src/Notice_Helper.php:94 src/Notice_Helper.php:103
+#: src/Notice_Helper.php:105 src/Notice_Helper.php:113
+#: src/Notice_Helper.php:124
+#. translators: 2: Quantity step rule value 3: Product name
+msgid "&quot;%3$s&quot; must be added in multiples of %2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:90
+#. translators: 1: Category name 2: Category cart max value rule 3: Product
+#. name
+msgid ""
+"You cannot add &quot;%3$s&quot; because the value of items from the %1$s "
+"category must be less than %2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:92
+#. translators: 1: Category name 2: Category cart quantity rule 3: Product name
+msgid ""
+"You cannot add &quot;%3$s&quot; because your cart cannot contain more than "
+"%2$s products from the %1$s category."
+msgstr ""
+
+#: src/Notice_Helper.php:99 src/Notice_Helper.php:109
+#. translators: 2: Product cart max value rule 3: Product name
+msgid "You cannot add &quot;%3$s&quot; because it has a maximum value of %2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:101 src/Notice_Helper.php:111
+#. translators: 2: Product cart quantity rule 3: Product name
+msgid "You cannot add &quot;%3$s&quot; because it has a maximum quantity of %2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:118
+#. translators: 1: Variable product name 2: Product cart max value rule
+msgid "You cannot add &quot;%1$s&quot; because it has a maximum value of %2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:120
+#. translators: 1: Variable product name 2: Product cart quantity rule
+msgid "You cannot add &quot;%1$s&quot; because it has a maximum quantity of %2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:122
+#. translators: 1: Variable product name 2: Quantity step rule value
+msgid "&quot;%1$s&quot; must be added in multiples of %2$s."
+msgstr ""
+
+#: src/Notice_Helper.php:229
+#. translators: 1: WooCommerce Currrency Symbol 2: Amount
+msgid "%1$s%2$s"
+msgstr ""
+
+#: src/Notice_Helper.php:233
+#. translators: 1: WooCommerce Currrency Symbol 2: Min Amount 3: Max Amount
+msgid "between %1$s%2$s and %1$s%3$s"
+msgstr ""
+
+#: src/Notice_Helper.php:237
+#. translators: 1: WooCommerce Currrency Symbol 2: Max Amount
+msgid "%1$s%2$s or less"
+msgstr ""
+
+#: src/Notice_Helper.php:241
+#. translators: 1: WooCommerce Currrency Symbol 2: Min Amount
+msgid "at least %1$s%2$s"
+msgstr ""
+
+#: src/Notice_Helper.php:265
+#. translators: 1: Min Amount 2: Max Amount 3: Unit string, seperately
+#. translatable
+msgid "between %1$s and %2$s %3$s"
+msgstr ""
+
+#: src/Notice_Helper.php:269
+#. translators: 1: Max Amount 2: Unit string, seperately translatable
+msgid "%1$s %2$s or less"
+msgstr ""
+
+#: src/Notice_Helper.php:273
+#. translators: 1: Min Amount 2: Unit string, seperately translatable
+msgid "at least %1$s %2$s"
+msgstr ""
+
+#: src/Notice_Helper.php:290
+#. translators: Unit string for category rules
+msgid "items"
+msgstr ""
+
+#: src/Notice_Helper.php:292 src/Notice_Helper.php:294
+#: src/Notice_Helper.php:296
+#. translators: Unit string for product simple rules
+#. translators: Unit string for product variable rules
+#. translators: Unit string for product variation rules
+msgid "units"
+msgstr ""
+
+#: src/Plugin.php:100
+#. translators: %1$s: open link tag, %2$s: close link tag, %3$s: the plugin
+#. name
+msgid "Please %1$sinstall WooCommerce%2$s in order to use the %3$s extension."
+msgstr ""
+
+#: src/Util/Field.php:167
+msgid "Invalid type provided for quantity key request."
+msgstr ""
+
+#: src/Util/Field.php:171
+msgid "Invalid context provided for quantity key request."
+msgstr ""
+
+#: src/Util/Util.php:52
+msgid "Guest"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Quantity Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://barn2.com/wordpress-plugins/woocommerce-quantity-manager/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Control your product quantities by adding minimum and maximum quantity "
+"rules, step values, default quantities, and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://barn2.com"
+msgstr ""

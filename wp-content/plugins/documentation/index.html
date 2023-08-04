@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width = device-width">
+<title>xPanel - Plugin Documentation</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+<div id="page">
+<header class="header">
+	<div class="wrap">
+    <div class="row clearfix">
+        <div class="logo col-sm-4">
+        	<h1 class="site-title">xPanel</h1>
+        </div>
+        <div class="menu-area col-sm-8">
+            <h1 class="h4 plugin-name"> Plugin documentation and help manual</h1>
+        </div>
+        </div>
+    </div>
+</header>
+<div class="primary-area">
+<div class="wrap">
+<div class="section">
+	<p class="content-info">Created: June 07, 2016. Last updated: Oct 05, 2019. Version: 1.4.0. Author: <a href="http://codecanyon.net/user/SaurabhSharma/">SaurabhSharma</a>. email: <a href="mailto:xconsau@gmail.com">xconsau@gmail.com</a></p>
+    <h2 class="h1">Introduction</h2>
+    <p class="h4">First of all, let me thank you for showing your trust in &quot;xPanel&quot; plugin and purchasing it. I have handcrafted this document to lessen your efforts in configuring and using this plugin seamlessly. If you find any bug or issue which is beyond the scope of this documentation file, feel free to contact me through my CodeCanyon profile page <a href="http://codecanyon.net/user/saurabhsharma">here</a>. Thanks so much!</p>
+    </div>
+<div class="section">
+    <h2 id="toc">Table of Contents</h2>
+    <ul class="toc">
+        <li><a href="#install_wordpress">Install WordPress</a></li>
+        <li><a href="#install_xpanel">Install xPanel Plugin</a></li>
+        <li><a href="#setting_up_side_panel">Setting up a side panel</a></li>
+        <li><a href="#plugin_settings">Plugin Settings</a></li>
+        <li><a href="#css_files">CSS files</a></li>
+        <li><a href="#javascript_files">JavaScript files</a></li>
+        <li><a href="#php_files">php files</a></li>
+        <li><a href="#frequently_asked_questions">Frequently Asked Questions</a></li>
+        <li><a href="#sources_and_credits">Sources and Credits</a></li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2 id="install_wordpress">Install WordPress</h2>
+    <p>If you have not set up your WordPress installation yet, you can grab a copy of latest WordPress archive <a href="https://wordpress.org/">here</a>. Next, go through the installation instructions inside <code>readme.html</code> file and set up your WordPress installation. A detailed installation guide can be found on official <a href="https://codex.wordpress.org/Installing_WordPress">WordPress</a> Site.</p>
+</div>
+
+<div class="section">
+<h2 id="install_xpanel">Install xPanel Plugin</h2>
+<h4>In order to install the plugin, follow these steps:</h4>
+<p>1. Download  plugin archive from your codecanyon.net account's downloads section. You can download main archive or installable plugin zip archive.</p>
+<p>2. If you have downloaded main archive, unzip/extract this archive and look for the folder named <strong>xpanel</strong>. Compress/zip this folder as <code>xpanel.zip</code> using any compression tool like WinRAR or WinZiP. Alternatively, you can download installable  plugin archive from downloads section. In either case, place the xpanel.zip on your computer so that it can be uploaded to WordPress.</p>
+<p>3. Log in to WordPress and navigate to Plugins &gt; Add New. Click on the &quot;Upload PLugin&quot; button.</p>
+<p><img src="images/upload_plugin.jpg" alt="Upload Plugin"><span class="caption">Upload Plugin</span></p>
+<p>4. Click on the &quot;Choose file&quot; button and browse the plugin ZIP file:</p>
+<p><img src="images/browse_plugin.jpg" alt="Browse Plugin"><span class="caption">Browse Plugin</span></p>
+<p>5. After locating the file, click on the &quot;Install now&quot; button. The plugin will be installed.</p>
+<p>6. After installation, navigate to Plugins &gt; Installed Plugins, and activate the &quot;xPanel&quot; plugin.</p>
+<p><img src="images/activate_plugin.jpg" alt="Activate Plugin"><span class="caption">Activate Plugin</span></p>
+<h3>Manual installation using FTP or File Manager</h3>
+<p>You can also install the plugin manually using FTP or File Manager. For that, log in to your site's Control Panel &gt; File Manager, or log in to FTP and upload the extracted plugin folder to <strong>wp-content/plugins/</strong> directory. So your installed plugin address will be <code>wp-content/plugins/xpanel/</code>. After uploading the folder, log in to WordPress and activate the plugin inside Plugins &gt; Installed Plugins.</p>
+</div>
+
+<div class="section">
+<h2 id="setting_up_side_panel">Setting up a side panel</h2>
+<p>xPanel is a fixed sidebar panel which shows/hides as sliding  sidebar on mobile devices. This panel can be set up in two ways, depending upon  your choice.</p>
+<p> 1. By choosing existing registered widget areas and showing  them in a separate side panel.<br>
+  2. By converting existing widget area container on front end into a side panel.</p>
+ 
+ <h4 id="set_up_panel_method_1">Setting up panel using method #1</h4>
+<p>1. Log in to your WordPress admin and navigate  to Settings &gt; xPanel. Inside &quot;General&quot; tab, you will see &quot;Available widget  areas for side panel&quot;, as shown below.</p>
+<p><img src="images/xpanel_settings_1.jpg" alt="Choose from available widget areas"><span class="caption">Choose from available widget areas</span></p>
+<p>2. Choose any available widget area and Save Changes. The widget areas will be shown as available in theme. If there are no widget areas listed, you can create a new one using the &quot;Register new widget area&quot; checkbox. After you save changes, this new widget area will appear in the list as &quot;xPanel Sidebar&quot;. Select this sidebar and save changes again.</p>
+<p>3. After selecting appropriate widget area, navigate to Appearance &gt; Widgets. Inside your chosen widget area, add the widgets as required. For example, if you chose &quot;xPanel Sidebar&quot;, then add widgets inside xPanel Sidebar.</p>
+<p>4. Check the site on mobile. You shall now see a sidebar panel toggle button at the bottom, or on top (as chosen from plugin settings). Clicking on the toggle button will open the side panel.</p>
+<h4 id="set_up_panel_method_2">Setting up panel using method #2</h4>
+<p>In this method, an existing widget area container of front-end  is converted into a side panel. You need to provide a container class name or  ID inside plugin settings.</p>
+<p> 1. In order to find out container ID or class, check your  website source code in browser. For example, in Chrome, right  click on the sidebar of front end and click on “Inspect element”. </p>
+<p><img src="images/container_selector.jpg" alt="Find container selector"><span class="caption">Find container selector</span></p>
+<p>The container selector shall be chosen from parent container which holds all the widgets in sidebar. The above example is from &quot;TwentySixteen&quot; theme in which container selector for sidebar is <code>#secondary</code> or <code>.sidebar</code></p>
+<p>3. Navigate to WordPress Settings &gt; xPanel. Inside &quot;General&quot; tab &gt; Sidebar container selector, paste the selector of your widget area. E.g. #secondary.</p>
+<p>4. Save changes and check the site. Now it will show sidebar in normal style on desktops, whereas on mobile it will be converted into a side panel.</p>
+</div>
+<div class="section">
+<h2 id="plugin_settings">Plugin Settings</h2>
+<p>So far we have seen how to set up the side panel using different methods. Besides these, there are few more settings which you can apply to the panel. In order to access these settings, navigate to Settings &gt; xPanel. You shall see a settings panel, as shown below:</p>
+<p><img src="images/plugin_settings.jpg" alt="Plugin Settings"><span class="caption">Plugin Settings - General</span></p>
+<p>Below is a brief reference of each plugin option  and their role.</p>
+<table>
+    <tr>
+      <td><strong>Plugin option field</strong></td>
+      <td><strong>Description/Role</strong></td>
+    </tr>
+    <tr>
+        <td width="17%">Register new widget area</td>
+        <td width="83%">Upon enabling this option, a new widget area is created with the name &quot;xpanel sidebar&quot;. This new widget area is available inside Appearance &gt; Widgets.</td>
+    </tr>
+    <tr>
+      <td>Available widget areas for side panel</td>
+      <td>This select dropdown will show all available widget areas of the theme (including the xpanel sidebar if its is created using previous option). The chosen widget area is shown inside side panel.</td>
+    </tr>
+    <tr>
+      <td>Convert existing sidebar into side panel</td>
+      <td>Upon enabling this checkbox, existing sidebar container of front end will be converted into a side panel.</td>
+    </tr>
+    <tr>
+      <td>Sidebar container selector</td>
+      <td>This should be an ID or Class name of the sidebar container on front end.</td>
+    </tr>
+</table>
+
+<p><img src="images/plugin_settings_2.jpg" alt="Plugin Settings"><span class="caption">Plugin Settings - Display</span></p>
+
+<table>
+    <tr>
+      <td width="17%"><strong>Plugin option field</strong></td>
+      <td width="83%"><strong>Description/Role</strong></td>
+    </tr>
+    <tr>
+      <td>Side panel placement</td>
+      <td>Choose side panel placement as left or right using this option.</td>
+    </tr>
+    <tr>
+      <td>Panel transition style</td>
+      <td>Using this option you can choose two type of panel transition. Offcanvas or Overlay.</td>
+    </tr>
+    <tr>
+      <td>Toggle button style</td>
+      <td>The type of toggle button to be used. Currently it supports two styles. Icon at top, and bar style at bottom.</td>
+    </tr>
+    <tr>
+      <td>Text for bar style button</td>
+      <td>If &quot;Bar&quot; style toggle button is chosen, the text to be displayed on button can be changed here.</td>
+    </tr>
+    <tr>
+      <td>Show panel below viewport width</td>
+      <td>Using this option, provide a viewport width below which panel shall be shown. For example, use 768 to show panel on tablets or below devices. Or use 480 for mobiles only.</td>
+    </tr>
+    <tr>
+      <td>Enable collapsible list items in side panel list widgets</td>
+      <td>If this option is enabled, the plugin will convert list items in side panel into a collapsible accordion like menu.</td>
+    </tr>
+    <tr>
+      <td>Widget selectors</td>
+      <td>This text field requires comma separated selector names for widgets on which you wish to enable collapsible menus. For example, the WordPress custom menu widget has <code>.widget_nav_menu</code> class name selector.</td>
+    </tr>
+</table>
+
+<p><img src="images/plugin_settings_3.jpg" alt="Plugin Settings"><span class="caption">Plugin Settings - Hide On</span></p>
+
+<table>
+    <tr>
+      <td width="17%"><strong>Plugin option field</strong></td>
+      <td width="83%"><strong>Description/Role</strong></td>
+    </tr>
+    <tr>
+      <td>All pages</td>
+      <td>Use this option for hiding side panel on all pages.</td>
+    </tr>
+    <tr>
+      <td>Selected page IDs</td>
+      <td>Using this option, you can hide panel for specific pages with numeric IDs. E.g. 10,15,45</td>
+    </tr>
+    <tr>
+      <td>All posts</td>
+      <td>Use this option for hiding side panel on all posts.</td>
+    </tr>
+    <tr>
+      <td>Selected post IDs</td>
+      <td>Using this option, you can hide panel for specific posts with numeric IDs. E.g. 10,15,45</td>
+    </tr>
+    
+    <tr>
+      <td>All archives</td>
+      <td>Use this option for hiding side panel on all archives, including categories, date archives, tag archives, etc.</td>
+    </tr>
+    <tr>
+      <td>Selected category IDs</td>
+      <td>Using this option, you can hide panel for specific categories with numeric IDs. E.g. 10,15,45</td>
+    </tr>
+    
+    <tr>
+      <td>Show on WooCommerce Store</td>
+      <td>If you have chosen to hide panel on all archives, the panel will hide on WooCommerce shop pages too. Using this option, you can enable panel only for WooCommerce shop pages. The panel will be enabled for main shop page and product archives pages.</td>
+    </tr>
+</table>
+</div>
+<div class="section">
+<h2 id="css_files">CSS files used in the plugin</h2>
+<p>The plugin uses one CSS file located as <code>xpanel/assets/css/xpanel.style.css</code>. You can override these styles by placing custom CSS inside theme's style.css file.</p>
+</div>
+<div class="section">
+<h2 id="javascript_files">Javascript files</h2>
+<p>The plugin uses one JavaScript file located as <code>xpanel/assets/js/xpanel.frontend.js</code>. All the JS code of this plugin is located in this file only.</p>
+</div>
+<div class="section">
+<h2 id="php_files">php files used in the plugin</h2>
+<p>The php files used in this plugin are:</p>
+<table>
+<tr>
+<td><strong>php File</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>xpanel.php</td>
+<td>Main plugin core file.</td>
+</tr>
+<tr>
+<td>includes/class.settings-api.php</td>
+<td>The wrapper class for WordPress Settings API.</td>
+</tr>
+<tr>
+<td>includes/functions.php</td>
+<td>Helper functions used in the plugin.</td>
+</tr>
+<tr>
+  <td>includes/settings.php</td>
+  <td>Plugin admin settings panel.</td>
+</tr>
+</table>
+</div>
+<div class="section">
+<h3 id="frequently_asked_questions">Frequently Asked Questions</h3>
+<p>Below are some Frequently Asked Questions that may help you in finding a solution to your specific issue.</p>
+<h4>1. I have just uploaded the download zip file to WordPress, but it is showing an error. Why?</h4>
+<p>Your download zip file is not the plugin itself. It is a collection of plugin and documentation. It will be required to unzip this folder first. Next look for the folder named "<strong>xpanel</strong>". Compress/zip this folder and upload it to the <code>wp-content/plugins/</code> directory via FTP or File Manager of your Hosting account.</p>
+<h4>2. How to update the plugin</h4>
+<p>Plugin can be updated in two ways:</p>
+<p>2.1) <strong>From the WordPress admin</strong>: Navigate to Plugins &gt; Installed Plugins. Deactivate the &quot;xPanel&quot; and delete it. Next, install the latest copy of plugin by browsing the xpanel.zip file from your computer.</p>
+<p>2.2)<strong> From the FTP or Control Panel</strong>: Log in to your FTP or Control Panel of hosting account and locate the <code>/wp-content/plugins/xpanel/</code> folder. Delete this folder and update the latest extracted folder from your computer. This method is safer than the previous one.</p>
+</div>
+
+<div class="section">
+<h2 id="sources_and_credits">Sources and Credits</h2>
+<p>The plugin uses following files and resources, as listed:</p>
+<p><strong>jquery </strong> (as shipped with WordPress)<br>
+http://jquery.com/</p>
+<p><strong>Material Design Icons</strong><br>
+https://github.com/google/material-design-icons/</p>
+<p><strong>WebDevs Settings API Wrapper</strong><br>
+http://tareq.weDevs.com</p>
+<p><a href="http://wordpress.org">WordPress</a> for providing a platform on which we can create plugins.</p>
+</div>
+<div class="section no-margin">
+<p>Once again, thanks so much for purchasing this plugin. I'd be glad to help you if you have any questions relating to this plugin.  If you have a more general question relating to the plugins on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+<p><strong>Saurabh Sharma</strong></p>
+<p><a href="#toc">Back to Table of Contents &uarr; </a></p>
+</div>
+<div class="footer">
+<p>&copy; 2016 xPanel. All rights reserved.</p>
+</div>
+<!-- /.footer -->
+</div><!-- /.wrap -->
+</div><!-- /.primary-area -->
+</div>
+<div class="scroll-to-top"><a href="#" title="Scroll to top">Top</a></div>
+</body>
+</html>

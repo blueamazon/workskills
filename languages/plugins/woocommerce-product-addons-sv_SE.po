@@ -1,0 +1,608 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-04 07:48:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: WooCommerce - Extensions - WooCommerce Product Add-ons\n"
+
+#: includes/class-wc-product-addons-tracker.php:365
+msgid "Invalid key &quot;%1$s&quot; passed to get_reusable_data."
+msgstr "Ogiltig nyckel \"%1$s\" skickad till get_reusable_data."
+
+#: includes/class-wc-product-addons-display.php:92
+msgid "Please enter letters only."
+msgstr "Ange endast bokstäver."
+
+#: includes/class-wc-product-addons-display.php:99
+msgid "Please enter %1$s or less."
+msgstr "Ange %1$s eller mindre."
+
+#: includes/class-wc-product-addons-display.php:98
+msgid "Please enter %1$s or more."
+msgstr "Ange %1$s eller mer."
+
+#: includes/class-wc-product-addons-display.php:97
+msgid "Please enter up to %1$s characters."
+msgstr "Ange upp till %1$s tecken."
+
+#: includes/class-wc-product-addons-display.php:96
+msgid "Please enter at least %1$s characters."
+msgstr "Ange minst %1$s tecken."
+
+#: includes/class-wc-product-addons-display.php:95
+msgid "Please enter a valid email address."
+msgstr "Ange en giltig e-postadress."
+
+#: includes/class-wc-product-addons-display.php:94
+msgid "Please enter letters and numbers only."
+msgstr "Använd endast bokstäver och siffror."
+
+#: includes/class-wc-product-addons-display.php:91
+msgid "Please upload a file."
+msgstr "Ladda upp en fil."
+
+#: includes/class-wc-product-addons-display.php:90
+msgid "Please enter a number in this field."
+msgstr "Ange en siffra i det här fältet."
+
+#: includes/class-wc-product-addons-display.php:89
+msgid "Please enter some text in this field."
+msgstr "Ange lite text i detta fält."
+
+#: includes/class-wc-product-addons-display.php:88
+msgid "Please choose an option."
+msgstr "Välj ett alternativ."
+
+#: includes/class-wc-product-addons-compatibility.php:148
+msgid "WooCommerce Composite Products"
+msgstr "WooCommerce Composite Products"
+
+#: includes/class-wc-product-addons-compatibility.php:147
+msgid "Composite Products"
+msgstr "Sammansatta produkter"
+
+#. translators: %1$s: Extension, %2$s: Extension URL, %3$s: Extension full
+#. name, %4$s: Required version.
+#: includes/class-wc-product-addons-compatibility.php:138
+#: includes/class-wc-product-addons-compatibility.php:150
+msgid "The installed version of <strong>%1$s</strong> is not supported by <strong>Product Add-ons</strong>. Please update <a href=\"%2$s\" target=\"_blank\">%3$s</a> to version <strong>%4$s</strong> or higher."
+msgstr "Den installerade versionen av <strong>%1$s</strong> stöds inte av <strong>Product Add-ons</strong>. Uppdatera <a href=\"%2$s\" target=\"_blank\">%3$s</a> till version <strong>%4$s</strong> eller högre."
+
+#: includes/class-wc-product-addons-compatibility.php:135
+msgid "WooCommerce Product Bundles"
+msgstr "WooCommerce Product Bundles"
+
+#: includes/class-wc-product-addons-compatibility.php:134
+msgid "Product Bundles"
+msgstr "Produktpaket"
+
+#: includes/class-wc-product-addons-compatibility.php:59
+#: includes/class-wc-product-addons-compatibility.php:68
+msgid "Foul!"
+msgstr "Regelbrott!"
+
+#: includes/admin/class-wc-product-addons-admin.php:98
+msgid "Show running subtotal, even if not all required add-on choices have been made."
+msgstr "Visa löpande delsumma, även om inte alla nödvändiga tilläggsval har gjorts."
+
+#: includes/admin/class-wc-product-addons-admin.php:83
+msgid "Show Incomplete subtotal"
+msgstr "Visa ofullständig delsumma"
+
+#. translators: %1$s is the HTML for the opening tag of the link element.
+#. 'Documentation' will be an <a> element linking to the WooCommerce.com docs
+#. %2$s is the closing tag.
+#: includes/admin/views/html-global-admin.php:86
+msgid "Need help with add-ons? Visit the %1$sDocumentation%2$s."
+msgstr "Behöver du hjälp med utökningar? Besök %1$sdokumentationen%2$s."
+
+#: includes/admin/views/html-addon.php:235
+msgid "unlimited"
+msgstr "obegränsat"
+
+#: includes/class-wc-product-addons-display.php:101
+msgid "%s characters remaining"
+msgstr "%s tecken återstår"
+
+#: woocommerce-product-addons.php:221
+msgid "Find products"
+msgstr "Hitta produkter"
+
+#: woocommerce-product-addons.php:221
+msgid "Create an add-on that applies to every product, or apply it to specific categories. Create an add-on for an individual product by editing the product."
+msgstr "Skapa en utökning som gäller för alla produkter, eller tillämpa utökningen på specifika kategorier. Skapa en utökning för en enskild produkt genom att redigera den aktuella produkten."
+
+#: woocommerce-product-addons.php:221
+msgid "WooCommerce Product Add-ons is ready to go!"
+msgstr "WooCommerce Product Add-ons är redo för användning!"
+
+#: woocommerce-product-addons.php:208
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: woocommerce-product-addons.php:207
+msgid "Support"
+msgstr "Support"
+
+#. translators: %s WC download URL link.
+#: woocommerce-product-addons.php:36
+msgid "Product Add-ons requires WooCommerce to be installed and active. You can download %s here."
+msgstr "Product Add-ons kräver att WooCommerce är installerat och aktiverat. Du kan ladda ned %s här."
+
+#: includes/groups/class-wc-product-addons-groups.php:83
+msgid "Unable to delete group. Invalid global add ons group ID."
+msgstr "Det gick inte att ta bort gruppen. Ogiltigt grupp-ID för globala utökningar."
+
+#: includes/groups/class-wc-product-addons-groups.php:51
+msgid "Unable to retrieve data. Invalid global add ons group or product ID."
+msgstr "Det gick inte att hämta data. Ogiltigt grupp- eller produkt-ID för globala utökningar."
+
+#: includes/fields/class-wc-product-addons-field-file-upload.php:35
+msgid "Filesize exceeds the limit."
+msgstr "Filstorleken överskrider gränsen."
+
+#. translators: %s Addon name
+#: includes/fields/class-wc-product-addons-field-custom.php:67
+msgid "Please enter a value greater than 0 for \"%s\"."
+msgstr "Ange ett värde större än 0 för ”%s”."
+
+#. translators: 1 Addon name 2 Maximum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:54
+msgid "The maximum allowed amount for \"%1$s\" is %2$s."
+msgstr "Den högsta tillåtna mängden för \"%1$s\" är %2$s."
+
+#. translators: 1 Addon name 2 minimum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:47
+msgid "The minimum amount required for \"%1$s\" is %2$s."
+msgstr "Den lägsta tillåtna mängden för \"%1$s\" är %2$s."
+
+#. translators: 1 Addon name 2 Maximum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:39
+msgid "The maximum allowed characters for \"%1$s\" is %2$s."
+msgstr "Maximalt tillåtna tecken för ”%1$s” är ”%2$s”."
+
+#. translators: 1 Addon name 2 Minimum amount
+#: includes/fields/class-wc-product-addons-field-custom.php:34
+msgid "The minimum characters required for \"%1$s\" is %2$s."
+msgstr "Det lägsta antalet tillåtna tecken för \"%1$s\" är %2$s."
+
+#: includes/class-wc-product-addons-display.php:100
+msgid "Subtotal"
+msgstr "Delsumma"
+
+#: includes/admin/views/html-global-admin.php:66
+msgid "Create add-ons."
+msgstr "Skapa utökningar."
+
+#: includes/admin/views/html-global-admin.php:66
+msgid "No add-ons found."
+msgstr "Inga utökningar hittades."
+
+#: includes/admin/views/html-global-admin.php:50
+msgid "No Products Assigned"
+msgstr "Inga produkter har tilldelats"
+
+#: includes/admin/views/html-global-admin.php:15
+msgid "Create New"
+msgstr "Skapa nytt"
+
+#: includes/admin/views/html-global-admin.php:15
+msgid "Add-Ons"
+msgstr "Utökningar"
+
+#: includes/admin/views/html-global-admin-add.php:59
+msgid "Select which categories this add-on should apply to. Create add-ons for a single product when editing that product."
+msgstr "Välj vilka kategorier denna utökning ska gälla för. Skapa utökningar för en enskild produkt genom att redigera den aktuella produkten."
+
+#: includes/admin/views/html-global-admin-add.php:48
+msgid "Product categories"
+msgstr "Produktkategorier"
+
+#: includes/admin/views/html-global-admin-add.php:46
+msgid "Choose categories&hellip;"
+msgstr "Välj kategorier&hellip;"
+
+#: includes/admin/views/html-global-admin-add.php:43
+#: includes/admin/views/html-global-admin.php:22
+msgid "Product Categories"
+msgstr "Produktkategorier"
+
+#: includes/admin/views/html-global-admin-add.php:38
+msgid "This determines the order when there are multiple add-ons. Add-ons for individual products are set to order 10."
+msgstr "Detta avgör ordningen när det finns flera utökningar. Utökningar för enskilda produkter är inställda på 10."
+
+#: includes/admin/views/html-global-admin-add.php:29
+msgid "This name is for your reference only and will not be visible to customers."
+msgstr "Detta namn är endast för din referens och kommer inte att vara synligt för kunderna."
+
+#: includes/admin/views/html-global-admin-add.php:25
+#: includes/admin/views/html-global-admin.php:20
+msgid "Name"
+msgstr "Namn"
+
+#: includes/admin/views/html-global-admin-add.php:19
+msgid "Set up add-ons that apply to all products or specific product categories."
+msgstr "Konfigurera utökningar som gäller för alla produkter eller för specifika produktkategorier."
+
+#: includes/admin/views/html-global-admin-add.php:11
+msgid "Update"
+msgstr "Uppdatera"
+
+#: includes/admin/views/html-global-admin-add.php:10
+msgid "Edit Add-on"
+msgstr "Redigera utökning"
+
+#: includes/admin/views/html-global-admin-add.php:7
+msgid "Publish"
+msgstr "Publicera"
+
+#: includes/admin/views/html-global-admin-add.php:6
+#: woocommerce-product-addons.php:221
+msgid "Create add-ons"
+msgstr "Skapa utökningar"
+
+#: includes/admin/views/html-addon.php:248
+msgid "Adjust price"
+msgstr "Justera pris"
+
+#: includes/admin/views/html-addon.php:236
+msgid "Enter a minimum and maximum value for the limit range."
+msgstr "Ange ett högsta och lägsta värde för gränsintervallet."
+
+#: includes/admin/views/html-addon.php:189
+msgid "Add Option"
+msgstr "Lägg till alternativ"
+
+#: includes/admin/views/html-addon.php:171
+#: includes/admin/views/html-addon.php:249
+msgid "Choose how to calculate price: apply a flat fee regardless of quantity, charge per quantity ordered, or charge a percentage of the total"
+msgstr "Välj hur du vill beräkna pris: tillämpa en fast avgift oavsett kvantitet, debitera per beställd kvantitet eller ta ut en procentandel av totalbeloppet."
+
+#: includes/admin/views/html-addon.php:165
+msgid "Option"
+msgstr "Alternativ"
+
+#: includes/admin/views/html-addon.php:144
+msgid "Add description"
+msgstr "Lägg till beskrivning"
+
+#: includes/admin/views/html-addon.php:134
+msgid "Hide"
+msgstr "Dölj"
+
+#: includes/admin/views/html-addon.php:132
+msgid "Label"
+msgstr "Etikett"
+
+#: includes/admin/views/html-addon.php:128
+msgid "Format title"
+msgstr "Formatera rubrik"
+
+#: includes/admin/views/html-addon.php:119
+msgid "Title"
+msgstr "Rubrik"
+
+#: includes/admin/views/html-addon.php:110
+msgid "Only Email Address"
+msgstr "Endast e-postadress"
+
+#: includes/admin/views/html-addon.php:109
+msgid "Only Letters and Numbers"
+msgstr "Endast bokstäver och siffror"
+
+#: includes/admin/views/html-addon.php:108
+msgid "Only Numbers"
+msgstr "Endast siffror"
+
+#: includes/admin/views/html-addon.php:107
+msgid "Only Letters"
+msgstr "Endast bokstäver"
+
+#: includes/admin/views/html-addon.php:106
+msgid "Any Text"
+msgstr "Vilken text som helst"
+
+#: includes/admin/views/html-addon.php:102
+msgid "Restriction"
+msgstr "Begränsning"
+
+#: includes/admin/views/html-addon.php:95
+msgid "Images"
+msgstr "Bilder"
+
+#: includes/admin/views/html-addon.php:94
+msgid "Radio Buttons"
+msgstr "Alternativknappar"
+
+#: includes/admin/views/html-addon.php:93
+msgid "Dropdowns"
+msgstr "Rullgardinsmenyer"
+
+#: includes/admin/views/html-addon.php:89
+msgid "Display as"
+msgstr "Visa som"
+
+#: includes/admin/views/html-addon.php:82
+#: includes/admin/views/html-addon.php:133
+msgid "Heading"
+msgstr "Rubrik"
+
+#: includes/admin/views/html-addon.php:80
+msgid "Customer Defined Price"
+msgstr "Kunddefinierat pris"
+
+#: includes/admin/views/html-addon.php:71
+msgid "Type"
+msgstr "Typ"
+
+#: includes/admin/views/html-addon.php:9
+msgid "Multiple choice"
+msgstr "Flera val"
+
+#: includes/admin/views/html-addon-panel.php:56
+msgid "Hide additional add-ons that may apply to this product."
+msgstr "Dölj ytterligare utökningar som kan tillämpas för denna produkt."
+
+#: includes/admin/views/html-addon-panel.php:55
+msgid "Exclude add-ons"
+msgstr "Exkludera utökningar"
+
+#. translators: %s URL to addons page
+#: includes/admin/views/html-addon-panel.php:50
+msgid "You can create additional <a href=\"%s\">add-ons</a> that apply to all products or to certain categories."
+msgstr "Du kan skapa ytterligare <a href=\"%s\">utökningar</a> som gäller för alla produkter eller för särskilda produktkategorier."
+
+#: includes/admin/views/html-addon-panel.php:46
+msgid "Additional add-ons"
+msgstr "Ytterligare utökningar"
+
+#: includes/admin/views/html-addon-panel.php:32
+msgid "Add Field"
+msgstr "Lägg till fält"
+
+#: includes/admin/views/html-addon-panel.php:11
+msgid "Add fields to get additional information from customers"
+msgstr "Lägg till fält för att få ytterligare information från kunder"
+
+#: includes/admin/views/html-addon-panel.php:11
+msgid "Add-on fields"
+msgstr "Utökningsfält"
+
+#: includes/admin/views/html-addon-option.php:40
+#: includes/admin/views/html-addon.php:256
+msgid "Percentage Based"
+msgstr "Procentbaserat"
+
+#: includes/admin/views/html-addon-option.php:39
+#: includes/admin/views/html-addon.php:255
+msgid "Quantity Based"
+msgstr "Kvantitetsbaserad"
+
+#: includes/admin/views/html-addon-option.php:38
+#: includes/admin/views/html-addon.php:254
+msgid "Flat Fee"
+msgstr "Fast avgift"
+
+#: includes/admin/views/html-addon-option.php:33
+msgid "Enter an option"
+msgstr "Ange ett alternativ"
+
+#. translators: %1$s is the HTML for the opening tag of the link element. %2$s
+#. is the closing tag. The text between will be a hyperlink.
+#: includes/admin/class-wc-product-addons-privacy.php:34
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. %1$sLearn more about how this works, including what you may want to include in your privacy policy.%2$s"
+msgstr "Genom att använda den här utökningen kan det hända att du lagrar personuppgifter hos eller delar data med en extern tjänst. %1$sLäs mer om hur detta fungerar, inklusive vad som kan vara bra att inkludera i din integritetspolicy.%2$s"
+
+#: includes/admin/class-wc-product-addons-admin.php:70
+#: includes/admin/class-wc-product-addons-privacy.php:24
+msgid "Product Add-ons"
+msgstr "Produktutökningar"
+
+#: includes/admin/class-wc-product-addons-admin.php:715
+msgid "Variation ID:"
+msgstr "Variant-ID:"
+
+#. translators: %s ID of variation
+#: includes/admin/class-wc-product-addons-admin.php:712
+msgid "%s (No longer exists)"
+msgstr "%s (Finns inte längre)"
+
+#: includes/admin/class-wc-product-addons-admin.php:703
+msgid "SKU:"
+msgstr "Artikelnr:"
+
+#: includes/admin/class-wc-product-addons-admin.php:328
+#: includes/admin/views/html-addon.php:75
+msgid "Multiple Choice"
+msgstr "Flera val"
+
+#: includes/admin/class-wc-product-addons-admin.php:324
+msgid "Dropdown"
+msgstr "Rullgardinsmeny"
+
+#: includes/admin/class-wc-product-addons-admin.php:321
+#: includes/admin/views/html-addon.php:79
+msgid "File Upload"
+msgstr "Filuppladdning"
+
+#: includes/admin/class-wc-product-addons-admin.php:318
+#: includes/admin/views/html-addon.php:78
+msgid "Long Text"
+msgstr "Lång text"
+
+#: includes/admin/class-wc-product-addons-admin.php:315
+#: includes/admin/views/html-addon.php:77
+msgid "Short Text"
+msgstr "Kort text"
+
+#: includes/admin/class-wc-product-addons-admin.php:312
+#: includes/admin/views/html-addon.php:81
+msgid "Quantity"
+msgstr "Antal"
+
+#: includes/admin/class-wc-product-addons-admin.php:309
+#: includes/admin/views/html-addon.php:170
+msgid "Price"
+msgstr "Pris"
+
+#: includes/admin/class-wc-product-addons-admin.php:306
+msgid "Checkbox"
+msgstr "Kryssruta"
+
+#: includes/admin/class-wc-product-addons-admin.php:277
+#: includes/admin/class-wc-product-addons-admin.php:349
+msgid "Add-ons Group"
+msgstr "Grupp med utökningar"
+
+#: includes/admin/class-wc-product-addons-admin.php:251
+msgid "Error: Add-on not found"
+msgstr "Fel: Utökningen hittades inte"
+
+#: includes/admin/class-wc-product-addons-admin.php:205
+msgid "Add Image"
+msgstr "Lägg till bild"
+
+#: includes/admin/class-wc-product-addons-admin.php:204
+msgid "Add Image Swatch"
+msgstr "Lägg till Image Swatch"
+
+#: includes/admin/class-wc-product-addons-admin.php:202
+msgid "Are you sure you want remove this add-on field?"
+msgstr "Är du säker på att du vill ta bort det här utökningsfältet?"
+
+#: includes/admin/class-wc-product-addons-admin.php:201
+#: includes/admin/views/html-addon.php:198
+msgid "Restrictions"
+msgstr "Begränsningar"
+
+#: includes/admin/class-wc-product-addons-admin.php:200
+#: includes/admin/views/html-addon.php:211
+#: includes/admin/views/html-addon.php:214
+msgid "Limit character length"
+msgstr "Begränsa teckenlängd"
+
+#: includes/admin/class-wc-product-addons-admin.php:199
+#: includes/admin/views/html-addon.php:208
+msgid "Limit quantity range"
+msgstr "Begränsa kvantitetsintervall"
+
+#: includes/admin/class-wc-product-addons-admin.php:198
+#: includes/admin/views/html-addon.php:204
+msgid "Limit price range"
+msgstr "Begränsa prisintervall"
+
+#: includes/admin/class-wc-product-addons-admin.php:197
+msgid "All fields must have a title and/or option name. Please review the settings highlighted in red border."
+msgstr "Alla fält måste ha en rubrik och/eller ett alternativnamn. Granska inställningarna som har markerats med röd kant."
+
+#: templates/addons/image.php:68 templates/addons/select.php:26
+msgid "Select an option..."
+msgstr "Välj ett alternativ …"
+
+#: templates/addons/image.php:20 templates/addons/image.php:21
+#: templates/addons/image.php:66 templates/addons/radiobutton.php:24
+#: templates/addons/select.php:24
+msgid "None"
+msgstr "Ingen"
+
+#. translators: %s file size.
+#: templates/addons/file-upload.php:42
+msgid "(max file size %s)"
+msgstr "(max filstorlek %s)"
+
+#: includes/admin/views/html-addon.php:154 templates/addons/addon-start.php:62
+#: templates/addons/addon-start.php:82
+msgid "Required field"
+msgstr "Obligatoriskt fält"
+
+#. translators: %s Name of the addon
+#. translators: %s Addon name
+#: includes/fields/class-wc-product-addons-field-custom.php:24
+#: includes/fields/class-wc-product-addons-field-file-upload.php:29
+#: includes/fields/class-wc-product-addons-field-list.php:15
+#: includes/fields/class-wc-product-addons-field-select.php:14
+msgid "\"%s\" is a required field."
+msgstr "”%s” är ett obligatoriskt fält."
+
+#: includes/class-wc-product-addons-display.php:518
+msgid "Select options"
+msgstr "Välj alternativ"
+
+#: includes/class-wc-product-addons-display.php:93
+msgid "Please enter numbers only."
+msgstr "Ange endast siffror."
+
+#: includes/admin/views/html-global-admin.php:39
+msgid "Delete"
+msgstr "Ta bort"
+
+#: includes/admin/views/html-global-admin.php:39
+msgid "Edit"
+msgstr "Redigera"
+
+#: includes/admin/views/html-global-admin.php:23
+msgid "Number of Fields"
+msgstr "Antal fält"
+
+#: includes/admin/views/html-global-admin-add.php:47
+#: includes/admin/views/html-global-admin.php:48
+msgid "All Products"
+msgstr "Alla produkter"
+
+#: includes/admin/views/html-global-admin-add.php:34
+#: includes/admin/views/html-global-admin.php:21
+msgid "Priority"
+msgstr "Prioritet"
+
+#: includes/admin/views/html-addon.php:76
+msgid "Checkboxes"
+msgstr "Kryssrutor"
+
+#: includes/admin/views/html-addon.php:60
+msgid "Click to toggle"
+msgstr "Klicka för att slå på/av"
+
+#: includes/admin/views/html-addon.php:59
+msgid "Remove"
+msgstr "Ta bort"
+
+#: includes/admin/class-wc-product-addons-admin.php:203
+msgid "Are you sure you want delete this option?"
+msgstr "Är du säker på att du vill ta bort detta alternativ?"
+
+#: includes/admin/views/html-addon-panel.php:42
+msgid "Paste exported form data here and then save to import fields. The imported fields will be appended."
+msgstr "Klistra in exporterad formulärdata här och spara sedan för att importera fälten. De importerade fälten kommer att läggas till."
+
+#: includes/admin/views/html-addon-panel.php:36
+msgid "Export"
+msgstr "Exportera"
+
+#: includes/admin/views/html-addon-panel.php:35
+msgid "Import"
+msgstr "Importera"
+
+#: includes/admin/views/html-addon-panel.php:13
+msgid "Expand all"
+msgstr "Expandera alla"
+
+#: includes/admin/views/html-addon-panel.php:13
+msgid "Close all"
+msgstr "Stäng alla"
+
+#: includes/admin/class-wc-product-addons-admin.php:55
+#: includes/admin/class-wc-product-addons-admin.php:396
+msgid "Add-ons"
+msgstr "Utökningar"
+
+#: includes/admin/class-wc-product-addons-admin.php:289
+msgid "Add-on deleted successfully"
+msgstr "Utökningen har tagits bort"
+
+#: includes/admin/class-wc-product-addons-admin.php:236
+msgid "Add-on saved successfully"
+msgstr "Utökningen har sparats"

@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="bewpi_template_settings">
+            <key name="bewpi_company_name" />
+            <key name="bewpi_company_address" style="textarea" />
+            <key name="bewpi_company_details" style="textarea" />
+            <key name="bewpi_intro_text" style="textarea" />
+            <key name="bewpi_title" />
+            <key name="bewpi_terms" style="textarea" />
+            <key name="bewpi_left_footer_column" style="textarea" />
+            <key name="bewpi_right_footer_column" style="textarea" />
+        </key>
+        <key name="bewpipremium_settings">
+            <key name="bewpi_global_invoice_email_subject" />
+            <key name="bewpi_global_invoice_email_message" style="textarea" />
+            <key name="bewpi_custom_date_field_name" />
+        </key>
+    </admin-texts>
+</wpml-config>

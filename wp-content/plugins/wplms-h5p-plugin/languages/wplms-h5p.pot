@@ -1,0 +1,316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS H5P\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-21 12:50+0530\n"
+"PO-Revision-Date: 2020-08-21 12:50+0530\n"
+"Last-Translator: VibeThemes <vibethemes@gmail.com>\n"
+"Language-Team: vibethemes <vibethemes@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/wplms.h5p.class.php:32 classes/wplms.h5p.class.php:90
+#: classes/wplms.h5p.class.php:166
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:77
+msgctxt "Insert label on h5p"
+msgid "Insert"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:78
+msgctxt "title lable on table"
+msgid "Title"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:79
+msgctxt "previous"
+msgid "Previous"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:80
+msgctxt "next"
+msgid "Next"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:82
+msgctxt "Add wplms h5p label on h5p"
+msgid "Add wplms h5p"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:147 classes/wplms.h5p.class.php:195
+#: vibebp/class.api.php:86
+msgctxt ""
+msgid "Quiz evaluated"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:160
+msgid "Please install H5P for WordPress to use WPLMS H5P plugin"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:160
+msgid "Show details"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:258
+#, php-format
+msgid "Database error: %s."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:262
+#, php-format
+msgid "Cannot find H5P content with slug: %s."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:329
+msgctxt "check results lable h5p"
+msgid "Check Results"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:676
+msgid "Fullscreen"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:677
+msgid "Disable fullscreen"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:678
+msgid "Download"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:679 classes/wplms.h5p.class.php:685
+msgid "Rights of use"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:680
+msgid "Embed"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:681
+msgid "Size"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:682
+msgid "Show advanced"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:683
+msgid "Hide advanced"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:684
+msgid ""
+"Include this script on your website if you want dynamic sizing of the "
+"embedded content:"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:686
+msgid "Close"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:687
+msgid "Title"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:688
+msgid "Author"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:689
+msgid "Year"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:690
+msgid "Source"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:691
+msgid "License"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:692
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:693
+msgid "No copyright information available for this content."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:694
+msgid "Download this content as a H5P file."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:695
+msgid "View copyright information for this content."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:696
+msgid "View the embed code for this content."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:697
+msgid "Visit H5P.org to check out more cool content."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:698
+msgid "This content has changed since you last used it."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:699
+msgid "You'll be starting over."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:700
+msgid "Confirm action"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:701
+msgid "Please confirm that you wish to proceed. This action is not reversible."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:702
+msgid "Cancel"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:703
+msgid "Confirm"
+msgstr ""
+
+#: classes/wplms.h5p.class.php:719
+msgid "Missing H5P identifier."
+msgstr ""
+
+#: classes/wplms.h5p.class.php:727
+#, php-format
+msgid "Cannot find H5P content with id: %d."
+msgstr ""
+
+#: vibebp/class.api.php:184
+msgid "Quiz not set"
+msgstr ""
+
+#: vibebp/class.filters.php:84 vibebp/class.filters.php:214
+msgid "Add h5p content"
+msgstr ""
+
+#: vibebp/class.filters.php:89 vibebp/class.filters.php:219
+msgid "Upload h5p content"
+msgstr ""
+
+#: vibebp/class.filters.php:90 vibebp/class.filters.php:220
+msgid "Select a H5p content."
+msgstr ""
+
+#: vibebp/class.filters.php:181 vibebp/class.init.php:83
+msgid "H5P"
+msgstr ""
+
+#: vibebp/class.filters.php:184
+msgid "Quiz title"
+msgstr ""
+
+#: vibebp/class.filters.php:190
+msgid "Quiz Name"
+msgstr ""
+
+#: vibebp/class.filters.php:191 vibebp/class.init.php:93
+msgid "This is the title of the unit which is displayed on top of every unit"
+msgstr ""
+
+#: vibebp/class.filters.php:194
+msgid "Quiz type"
+msgstr ""
+
+#: vibebp/class.filters.php:201
+msgid "Select a type"
+msgstr ""
+
+#: vibebp/class.filters.php:204
+msgid "What is the quiz about"
+msgstr ""
+
+#: vibebp/class.filters.php:211
+msgid "Enter a short description about the quiz."
+msgstr ""
+
+#: vibebp/class.filters.php:228
+msgid "Number of Extra Quiz Retakes"
+msgstr ""
+
+#: vibebp/class.filters.php:229
+msgid ""
+"Student can reset and start the quiz all over again. Number of Extra retakes "
+"a student can take."
+msgstr ""
+
+#: vibebp/class.filters.php:236
+msgid "Post Quiz Message"
+msgstr ""
+
+#: vibebp/class.filters.php:237
+msgid "This message is shown to users when they submit the quiz"
+msgstr ""
+
+#: vibebp/class.init.php:86
+msgid "Unit title"
+msgstr ""
+
+#: vibebp/class.init.php:92
+msgid "Unit Name"
+msgstr ""
+
+#: vibebp/class.init.php:96
+msgid "Unit Tag"
+msgstr ""
+
+#: vibebp/class.init.php:103
+msgid "Select a tag"
+msgstr ""
+
+#: vibebp/class.init.php:106
+msgid "Add H5P element"
+msgstr ""
+
+#: vibebp/class.init.php:110
+msgid "Select a H5P module."
+msgstr ""
+
+#: vibebp/class.init.php:118
+msgid "What is the unit about"
+msgstr ""
+
+#: vibebp/class.init.php:125
+msgid "Enter description about the unit."
+msgstr ""
+
+#: vibebp/class.init.php:128
+msgid "Unit duration"
+msgstr ""
+
+#: vibebp/class.init.php:137
+msgid "Free Unit"
+msgstr ""
+
+#: vibebp/class.init.php:138
+msgid "Set Free unit, viewable to all"
+msgstr ""
+
+#: vibebp/class.init.php:145
+msgid "Attachments"
+msgstr ""
+
+#: vibebp/class.init.php:146
+msgid "Display these attachments below units to be downloaded by students"
+msgstr ""

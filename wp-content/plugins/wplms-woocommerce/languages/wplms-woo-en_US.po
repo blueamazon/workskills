@@ -1,0 +1,447 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPLMS WooCommerce v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-05 21:09+0530\n"
+"PO-Revision-Date: 2018-07-05 23:41+0530\n"
+"Last-Translator: VibeThemes <vibethemes@gmail.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wplms-woo
+#: includes/admin/admin.php:45 includes/admin/admin.php:96
+msgid "WPLMS"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/admin.php:46
+msgid "Display WPLMS courses"
+msgstr ""
+
+#: includes/admin/admin.php:103
+msgid "WPLMS Woocommerce Settings"
+msgstr ""
+
+#: includes/admin/admin.php:109
+msgid "Enable Variable Products Popup in Course Page"
+msgstr ""
+
+#: includes/admin/admin.php:111
+msgid ""
+"Enabling this setting will show variable pricing/product in a popup on "
+"course page"
+msgstr ""
+
+#: includes/admin/admin.php:119
+msgid "Display Batch Price on Course Page"
+msgstr ""
+
+#: includes/admin/admin.php:121
+msgid "Enabling this setting will show batch pricing on course page"
+msgstr ""
+
+#: includes/admin/admin.php:128
+msgid "Enable Instructor Premium Courses"
+msgstr ""
+
+#: includes/admin/admin.php:130
+msgid ""
+"Enabling this setting enable the instructor premium courses feature in the "
+"website. The admin can restrict the instructors from creating the courses "
+"and the instructors will have to purchase the courses to continue publishing "
+"courses."
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/updater.php:324
+msgid "Error"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:38
+msgid "Courses"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:56
+msgid "Select courses to connect with this product"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:59
+#: includes/admin/woocommerce_meta.php:205
+msgid "Subscription"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:65
+msgid ""
+"Enable subscription, users will subscribe to connected course for limited "
+"duration"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:83
+#: includes/admin/woocommerce_meta.php:214
+msgid "Duration"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:85
+msgid ""
+"Add subscription duration. Duration for this users subscribe to connected "
+"courses."
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:90
+msgid "Duration parameter"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:92
+msgid "DAY"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:93
+msgid "WEEK"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:94
+msgid "MONTH"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:95
+msgid "YEAR"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:96
+msgid "HOUR"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:97
+msgid "MINUTE"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:99
+msgid "Duration parameter for selected duration"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:203
+msgid "LMS Settings"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:208
+#: includes/admin/woocommerce_meta.php:246
+#: includes/admin/woocommerce_meta.php:259
+msgid "Enable"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:209
+#: includes/admin/woocommerce_meta.php:247
+#: includes/admin/woocommerce_meta.php:260
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:217
+msgid "Seconds"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:218
+msgid "Minutes"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:219
+msgid "Hours"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:220
+msgid "Days"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:221
+msgid "Weeks"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:222
+msgid "Months"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:223
+msgid "Years"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:227
+msgid "Certificate"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:230
+msgid "Enable Certificate"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:231
+msgid "Disable Certificate"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:235 includes/front/front.php:268
+msgid "Course Badge"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:238
+msgid "Enable Badge"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:239
+msgid "Disable Badge"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:243
+msgid "Enable Course Retakes (Override Course settings)"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:252
+msgid "Limit Course Retakes"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:256
+msgid "Enable Quiz Retakes (Override Quiz settings)"
+msgstr ""
+
+# @ wplms-woo
+#: includes/admin/woocommerce_meta.php:265
+msgid "Limit Quiz Retakes"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:275
+msgid "Select Course batches"
+msgstr ""
+
+#: includes/admin/woocommerce_meta.php:293
+msgid "No Batch found"
+msgstr ""
+
+# @ wplms-woo
+#: includes/class.config.php:124
+msgid "Unable to contact server"
+msgstr ""
+
+#: includes/front/front.php:258
+msgid "Full Duration"
+msgstr ""
+
+#: includes/front/front.php:264
+msgid "Course Certificate"
+msgstr ""
+
+#: includes/front/front.php:274
+msgid "Course Retake"
+msgstr ""
+
+#: includes/front/front.php:281
+msgid "Quiz Retake"
+msgstr ""
+
+#: includes/front/front.php:287
+msgid "Batch: "
+msgstr ""
+
+#: includes/front/front.php:291
+msgid "Select"
+msgstr ""
+
+#: includes/instructor_premium_course/class.actions.php:60
+#: includes/instructor_premium_course/class.actions.php:112
+msgid "Security check Failed. Contact Administrator."
+msgstr ""
+
+#: includes/instructor_premium_course/class.actions.php:68
+msgid "Price Per Course not set. Contact Administrator."
+msgstr ""
+
+#: includes/instructor_premium_course/class.actions.php:178
+msgid "Total Courses you can publish"
+msgstr ""
+
+#: includes/instructor_premium_course/class.actions.php:181
+#: includes/instructor_premium_course/class.filters.php:162
+msgid "Published Courses"
+msgstr ""
+
+#: includes/instructor_premium_course/class.actions.php:184
+#: includes/instructor_premium_course/class.filters.php:163
+msgid "Remaining Courses"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:59
+msgctxt ""
+msgid "Instructor Premium Courses"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:75
+msgid "Instructor Premium Courses"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:76
+msgid "Check and manage instructor premium courses"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:81
+#, php-format
+msgid "The price is in: %s"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:92
+msgctxt "Save Premium Course Per Price"
+msgid "Save Settings"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:97
+msgid "Price per Course"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:161
+msgid "Instructor Name"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:164
+msgid "Total Courses"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:176
+msgctxt "Save button when updating total courses"
+msgid "Update"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:177
+msgctxt "Cancel button when updating total courses"
+msgid "Cancel"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:189
+msgid "Edit"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:289
+msgid "No Instructors found."
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:305
+msgid "&lsaquo; Previous"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:306
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:327
+msgid "Instructor Premium Course Form"
+msgstr ""
+
+#: includes/instructor_premium_course/class.filters.php:329
+msgid ""
+"Please complete our instructor premium course form in order to create "
+"courses in our website."
+msgstr ""
+
+#: includes/instructor_premium_course/class.premium_course.php:48
+msgid "Price Per Course"
+msgstr ""
+
+#: includes/instructor_premium_course/class.premium_course.php:49
+msgid "Number of courses"
+msgstr ""
+
+#: includes/instructor_premium_course/class.premium_course.php:50
+msgid "Buy Courses"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:13
+msgid "Instructor Premium Course for Dashboard"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:15
+msgid " DASHBOARD : Instructor Premium Courses"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:32
+msgid "Unlimited"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:65
+msgid "Premium Courses"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:74
+msgid "Title:"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:79
+msgid "Select Width"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:81
+msgid "One Fourth"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:82
+msgid "One Third"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:83
+msgid "One Half"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:84
+msgid "Two Third"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:85
+msgid "Three Fourth"
+msgstr ""
+
+#: includes/instructor_premium_course/dashboard_premium_widget.php:86
+msgid "Full"
+msgstr ""

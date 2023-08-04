@@ -1,0 +1,41 @@
+@use 'wqm-error-tip';
+
+#quantity_manager_roles + span.select2-container {
+    max-width: 100%;
+}
+
+.wqm-min-max-input-container {
+    max-width: 480px;
+}
+
+.wqm-min-max-input-container {
+    display: flex; 
+    
+    label.wqm-min-max-label {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-right: 25px;
+    
+        input.wqm-quantity-input {
+            max-width: 100px;
+            margin-left: 10px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 460px) { 
+    .wqm-min-max-input-container {
+        flex-direction: column;
+
+        span {
+            min-width: 62px;
+        }
+
+        label.wqm-min-max-label {
+            justify-content: flex-start;
+            margin-right: 0px;
+            margin-bottom: 5px;
+        }
+    }
+}
