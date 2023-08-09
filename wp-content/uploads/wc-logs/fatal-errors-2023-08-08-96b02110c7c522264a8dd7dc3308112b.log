@@ -1,0 +1,510 @@
+2023-08-08T18:09:42+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:238
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 238
+
+2023-08-08T18:28:15+00:00 CRITICAL Uncaught Exception: The class BC_URL_Filters does not exist. in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:163
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(96): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 163
+
+2023-08-08T18:28:16+00:00 CRITICAL Uncaught Exception: The class BC_URL_Filters does not exist. in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:163
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(96): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 163
+
+2023-08-08T18:28:24+00:00 CRITICAL Uncaught Exception: The class BC_URL_Filters does not exist. in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:163
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(96): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#4 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 163
+
+2023-08-08T18:29:44+00:00 CRITICAL Uncaught Exception: The class BC_URL_Filters does not exist. in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:163
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(96): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#4 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 163
+
+2023-08-08T18:30:25+00:00 CRITICAL Uncaught Exception: The class BC_URL_Filters does not exist. in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:163
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(96): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#4 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 163
+
+2023-08-08T18:35:47+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:37:48+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:39:49+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:42:22+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:43:51+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:45:52+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:47:53+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:49:54+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:51:55+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:53:56+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:55:57+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:57:58+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T18:59:59+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:02:00+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:02:55+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:02:55+00:00 CRITICAL syntax error, unexpected '}' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:04:25+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:08:05+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:08:06+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:08:07+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:08:23+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:08:24+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:08:25+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:08:26+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:08:45+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:08:45+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:09:17+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:09:18+00:00 CRITICAL require(): Failed opening required 'PATH_THIRDbuddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:10:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161 and exactly 1 expected in D:\laragon\www\workskills\wp-includes\plugin.php:834
+Stack trace:
+#0 D:\laragon\www\workskills\wp-content\themes\workskills\functions.php(161): plugin_dir_path()
+#1 D:\laragon\www\workskills\wp-settings.php(591): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-includes\plugin.php on line 834
+
+2023-08-08T19:10:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161 and exactly 1 expected in D:\laragon\www\workskills\wp-includes\plugin.php:834
+Stack trace:
+#0 D:\laragon\www\workskills\wp-content\themes\workskills\functions.php(161): plugin_dir_path()
+#1 D:\laragon\www\workskills\wp-settings.php(591): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#6 {main}
+  thrown in D:\laragon\www\workskills\wp-includes\plugin.php on line 834
+
+2023-08-08T19:10:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161 and exactly 1 expected in D:\laragon\www\workskills\wp-includes\plugin.php:834
+Stack trace:
+#0 D:\laragon\www\workskills\wp-content\themes\workskills\functions.php(161): plugin_dir_path()
+#1 D:\laragon\www\workskills\wp-settings.php(591): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#6 {main}
+  thrown in D:\laragon\www\workskills\wp-includes\plugin.php on line 834
+
+2023-08-08T19:10:40+00:00 CRITICAL require(): Failed opening required 'buddycommerce/src/core/users/filters/' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:10:40+00:00 CRITICAL require(): Failed opening required 'buddycommerce/src/core/users/filters/' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:11:12+00:00 CRITICAL require(): Failed opening required 'buddycommerce/src/core/users/filters/' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:11:13+00:00 CRITICAL require(): Failed opening required 'buddycommerce/src/core/users/filters/' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:12:06+00:00 CRITICAL require(): Failed opening required 'buddycommerce/src/core/users/filters/' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:12:30+00:00 CRITICAL require(): Failed opening required 'D:\laragon\www\workskills\wp-content\themes\workskills/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:12:30+00:00 CRITICAL require(): Failed opening required 'D:\laragon\www\workskills\wp-content\themes\workskills/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:13:07+00:00 CRITICAL require(): Failed opening required 'http://workskills.test/wp-content/plugins/D:/laragon/www/workskills/wp-content/themes/workskills/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:13:08+00:00 CRITICAL require(): Failed opening required 'http://workskills.test/wp-content/plugins/D:/laragon/www/workskills/wp-content/themes/workskills/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:14:57+00:00 CRITICAL require(): Failed opening required 'http://workskills.test/wp-content/plugins/D:/laragon/www/workskills/wp-content/themes/workskills/wp-content/plugins/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:14:58+00:00 CRITICAL require(): Failed opening required 'http://workskills.test/wp-content/plugins/D:/laragon/www/workskills/wp-content/themes/workskills/wp-content/plugins/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:16:09+00:00 CRITICAL require_once(): Failed opening required 'http://workskills.test/wp-content/plugins/D:/laragon/www/workskills/wp-content/themes/workskills/wp-content/plugins/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:29:57+00:00 CRITICAL require_once(): Failed opening required 'D:\laragon\www\workskills/wp-contentplugins/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:29:58+00:00 CRITICAL require_once(): Failed opening required 'D:\laragon\www\workskills/wp-contentplugins/buddycommerce/src/core/users/filters/class-bc-url-filters.php' (include_path='.;D:/laragon/etc/php/pear') in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T19:30:09+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:162
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:30:10+00:00 CRITICAL Uncaught Error: Using $this when not in object context in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:162
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:30:57+00:00 CRITICAL Uncaught Error: Class 'BC_URL_Filters' not found in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:162
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:30:58+00:00 CRITICAL Uncaught Error: Class 'BC_URL_Filters' not found in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:162
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:31:27+00:00 CRITICAL Uncaught Error: Class 'BC_URL_Filters' not found in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:162
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:31:27+00:00 CRITICAL Uncaught Error: Class 'BC_URL_Filters' not found in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:162
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:36:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function BuddyCommerce\Core\Users\Filters\BC_URL_Filters::filter_view_order_url(), 0 passed in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162 and exactly 2 expected in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:232
+Stack trace:
+#0 D:\laragon\www\workskills\wp-content\themes\workskills\functions.php(162): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url()
+#1 D:\laragon\www\workskills\wp-settings.php(591): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#6 {main}
+  thrown in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 232
+
+2023-08-08T19:36:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function BuddyCommerce\Core\Users\Filters\BC_URL_Filters::filter_view_order_url(), 0 passed in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162 and exactly 2 expected in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:232
+Stack trace:
+#0 D:\laragon\www\workskills\wp-content\themes\workskills\functions.php(162): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url()
+#1 D:\laragon\www\workskills\wp-settings.php(591): include('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#6 {main}
+  thrown in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 232
+
+2023-08-08T19:37:03+00:00 CRITICAL Uncaught Error: Call to private method BuddyCommerce\Core\Users\Filters\BC_URL_Filters::register() from context '' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:162
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:37:04+00:00 CRITICAL Uncaught Error: Call to private method BuddyCommerce\Core\Users\Filters\BC_URL_Filters::register() from context '' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:162
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:37:48+00:00 CRITICAL syntax error, unexpected '$fClass' (T_VARIABLE), expecting ')' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 162
+
+2023-08-08T19:42:52+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:43:02+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:49:09+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:49:12+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:50:10+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:50:12+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:50:15+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:50:24+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:50:30+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:50:37+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:52:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:52:38+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:52:51+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:52:52+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:52:59+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:53:04+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:53:07+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T19:53:27+00:00 CRITICAL Uncaught Error: Class 'BC_URL_Filters' not found in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:165
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): filter_after_setup_theme('')
+#1 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\workskills\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\workskills\wp-settings.php(601): do_action('after_setup_the...')
+#4 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 165
+
+2023-08-08T19:53:27+00:00 CRITICAL Uncaught Error: Class 'BC_URL_Filters' not found in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:165
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): filter_after_setup_theme('')
+#1 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\laragon\www\workskills\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\laragon\www\workskills\wp-settings.php(601): do_action('after_setup_the...')
+#4 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#5 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#6 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#7 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#8 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 165
+
+2023-08-08T19:53:33+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php:237
+Stack trace:
+#0 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(308): BuddyCommerce\Core\Users\Filters\BC_URL_Filters->filter_view_order_url('http://workskil...', '24216')
+#1 D:\laragon\www\workskills\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://workskil...', Array)
+#2 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(392): apply_filters('woocommerce_get...', 'http://workskil...', '24216')
+#3 D:\laragon\www\workskills\wp-content\plugins\wplms-application-forms\includes\class.woocommerce.php(404): WPLMS_Application_WooCommerce->wc_customer_on_hold_order_url('anas.mokayed@gm...', 1, '3047', 3045)
+#4 D:\laragon\www\workskills\wp-includes\class-wp-hook.php(310): WPLMS_Application_WooCommerce->wplms_course_order_url('3047', 3045)
+#5 D:\laragon\www\workskills\wp-includes\ in D:\laragon\www\workskills\wp-content\plugins\buddycommerce\src\core\users\filters\class-bc-url-filters.php on line 237
+
+2023-08-08T20:20:13+00:00 CRITICAL syntax error, unexpected ')' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 161
+
+2023-08-08T20:26:15+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 169
+
+2023-08-08T20:26:43+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 169
+
+2023-08-08T20:26:44+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 169
+
+2023-08-08T20:30:17+00:00 CRITICAL Uncaught Error: Call to undefined function remove_filer() in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:160
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-admin\admin-ajax.php(22): require_once('D:\\laragon\\www\\...')
+#4 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 160
+
+2023-08-08T20:30:54+00:00 CRITICAL Uncaught Error: Call to undefined function remove_filer() in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:160
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 160
+
+2023-08-08T20:30:54+00:00 CRITICAL Uncaught Error: Call to undefined function remove_filer() in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php:160
+Stack trace:
+#0 D:\laragon\www\workskills\wp-settings.php(591): include()
+#1 D:\laragon\www\workskills\wp-config.php(97): require_once('D:\\laragon\\www\\...')
+#2 D:\laragon\www\workskills\wp-load.php(50): require_once('D:\\laragon\\www\\...')
+#3 D:\laragon\www\workskills\wp-blog-header.php(13): require_once('D:\\laragon\\www\\...')
+#4 D:\laragon\www\workskills\index.php(17): require('D:\\laragon\\www\\...')
+#5 {main}
+  thrown in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 160
+
+2023-08-08T20:32:18+00:00 CRITICAL syntax error, unexpected ',', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in D:\laragon\www\workskills\wp-content\themes\workskills\functions.php on line 160
+

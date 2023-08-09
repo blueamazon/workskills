@@ -183,13 +183,7 @@ class WPLMS_Application_Forms_Init
 						});
 						e.stopImmediatePropagation();
 					}
-					setInterval(() => {
-						if ($('.course_aaplication_form .accordion .accordion-toggle.collapsed').length == 0) {
-							// $('input[placeholder="Date of birth*"]').prop("type", "date");
-							$('input[data-validate="date"]').attr("onfocus", '(this.type = "date")');
-							$('input[data-validate="phone"]').prop("type", "tel");
-						}
-					}, 500);
+					
 					var flag = true;
 
 					if ($('.course_aaplication_form .accordion .accordion-toggle.collapsed').length == 0) { //if flag set, added by dev

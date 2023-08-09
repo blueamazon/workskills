@@ -234,7 +234,6 @@ class BC_URL_Filters {
 		if ( ! bcommerce_is_user_nav_item_enabled( 'orders' ) ) {
 			return $url;
 		}
-
 		return bcommerce_get_user_view_order_permalink( bp_loggedin_user_id(), bp_loggedin_user_domain(), $order->get_id() );
 	}
 
