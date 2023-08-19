@@ -185,28 +185,17 @@ if (class_exists('Wplms_Woo_Front')) {
       $user     = get_userdata($user_id);
       $WPLMSApplicationWooCommerceObject = WPLMS_Application_WooCommerce::init();
       if ($WPLMSApplicationWooCommerceObject->wc_customer_on_hold_product($user->user_email, $user_id, $product_id)) {
-        $pid = get_post_meta($course_id, 'vibe_product', true);
-        $pid = apply_filters('wplms_course_product_id', $pid, $course_id, 0);
-
-        if (is_numeric($pid) && bp_course_get_post_type($pid) == 'product') {
-          $pid = get_permalink($pid);
-          $check = vibe_get_option('direct_checkout');
-          $check = intval($check);
-          if (isset($check) &&  $check) {
-            $pid .= '?redirect';
-          }
-        }
-        $extra="";
         $style="";
         if(strpos($return,'course_button')!==false){
           $style= "padding: 2em 0.1em!important;";
+          $return = str_replace('course_button', '', $return);
         }
-        $WPLMS_Application_Forms_Init_OBJ= WPLMS_Application_Forms_Init::Instance_WPLMS_Application_Forms_Init();
-        remove_filter('wplms_take_this_course_button_label', array($WPLMS_Application_Forms_Init_OBJ, 'add_wplms_application_form_on_course_details'), 99, 2);
-        return '<a href="' . $pid . '" style="'. $style.'" class="' . ((isset($course_id) &&$course_id) ?  ' full ':'') . 'button">' . apply_filters('wplms_take_this_course_button_label', __('TAKE THIS COURSE', 'vibe'), $course_id) . apply_filters('wplms_course_button_extra', $extra, $course_id) . '</a>';
+        $return=str_replace('button"', 'on-hold-b full button" style="'.$style.'"',$return);
+        return $return. '<style> p.message.approved:has(+ .on-hold-b),.course_aaplication_form:has(+ .on-hold-b){display:none !important} </style>';
       }
     }
     return $return;
  
   }
 }
+?>
