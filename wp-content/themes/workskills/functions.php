@@ -155,16 +155,58 @@ function cs_footer()
 <?php
   }
 }
-global $wp_filter;
 
 if (has_filter('woocommerce_get_view_order_url')) {
 
   remove_filter('woocommerce_get_view_order_url', array(BuddyCommerce\Core\Users\Filters\BC_URL_Filters::boot(), 'filter_view_order_url'), 10);
-  function filter_view_order_url( $url, $order ) {
+  add_filter('woocommerce_get_view_order_url', 'workskills_filter_view_order_url', 10, 2);
+  function workskills_filter_view_order_url($url, $order)
+  {
+    if (!bcommerce_is_user_nav_item_enabled('orders')) {
+      return $url;
+    }
+    if (!is_numeric($order))
+      return bcommerce_get_user_view_order_permalink(bp_loggedin_user_id(), bp_loggedin_user_domain(), $order->get_id());
+    else
+      return bcommerce_get_user_view_order_permalink(bp_loggedin_user_id(), bp_loggedin_user_domain(), $order);
+  }
+}
 
-		if ( ! bcommerce_is_user_nav_item_enabled( 'orders' ) ) {
-			return $url;
-		}
-		return bcommerce_get_user_view_order_permalink( bp_loggedin_user_id(), bp_loggedin_user_domain(), $order );
-	}
-} 
+if (class_exists('Wplms_Woo_Front')) {
+  add_filter('wplms_take_course_button_html', 'workskills_woocommerce_variable_form', 10, 2);
+  function workskills_woocommerce_variable_form($return, $course_id)
+  {
+    if (!is_user_logged_in()) {
+      return $return;
+    }
+    $product_id = get_post_meta($course_id, 'vibe_product', true);
+    if (is_numeric($product_id) && bp_course_get_post_type($product_id) == 'product') {
+      $user_id   = get_current_user_id();
+      $user     = get_userdata($user_id);
+      $WPLMSApplicationWooCommerceObject = WPLMS_Application_WooCommerce::init();
+      if ($WPLMSApplicationWooCommerceObject->wc_customer_on_hold_product($user->user_email, $user_id, $product_id)) {
+        $pid = get_post_meta($course_id, 'vibe_product', true);
+        $pid = apply_filters('wplms_course_product_id', $pid, $course_id, 0);
+
+        if (is_numeric($pid) && bp_course_get_post_type($pid) == 'product') {
+          $pid = get_permalink($pid);
+          $check = vibe_get_option('direct_checkout');
+          $check = intval($check);
+          if (isset($check) &&  $check) {
+            $pid .= '?redirect';
+          }
+        }
+        $extra="";
+        $style="";
+        if(strpos($return,'course_button')!==false){
+          $style= "padding: 2em 0.1em!important;";
+        }
+        $WPLMS_Application_Forms_Init_OBJ= WPLMS_Application_Forms_Init::Instance_WPLMS_Application_Forms_Init();
+        remove_filter('wplms_take_this_course_button_label', array($WPLMS_Application_Forms_Init_OBJ, 'add_wplms_application_form_on_course_details'), 99, 2);
+        return '<a href="' . $pid . '" style="'. $style.'" class="' . ((isset($course_id) &&$course_id) ?  ' full ':'') . 'button">' . apply_filters('wplms_take_this_course_button_label', __('TAKE THIS COURSE', 'vibe'), $course_id) . apply_filters('wplms_course_button_extra', $extra, $course_id) . '</a>';
+      }
+    }
+    return $return;
+ 
+  }
+}
